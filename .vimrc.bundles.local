@@ -1,0 +1,3 @@
+Bundle 'vim-scripts/VimClojure'
+Bundle 'ervandew/screen'
+let g:spf13_no_autochdir = 1

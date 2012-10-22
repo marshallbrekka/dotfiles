@@ -1,0 +1,77 @@
+" In your .vimrc.bundles.local file"
+" list only the plugin groups you will use
+ if !exists('g:spf13_bundle_groups')
+     let g:spf13_bundle_groups=['general', 'programming', 'ruby',
+     'python', 'javascript', 'html', 'misc']
+     endif
+
+let g:indent_guides_enable_on_vim_startup = 0
+let g:spf13_no_autochdir = 1
+let g:autoclose_on = 0
+let g:neocomplcache_enable_at_startup = 0
+let g:ctrlp_regexp = 1
+
+inoremap ( ()<Left>
+inoremap [ []<Left>
+inoremap { {}<Left>
+autocmd Syntax html,vim inoremap < <lt>><Left>
+
+function! ClosePair(char)
+    if getline('.')[col('.') - 1] == a:char
+        return "\<Right>"
+    else
+        return a:char
+    endif
+endf
+
+inoremap ) <c-r>=ClosePair(')')<CR>
+inoremap ] <c-r>=ClosePair(']')<CR>
+inoremap } <c-r>=ClosePair('}')<CR>
+
+function! QuoteDelim(char)
+    let line = getline('.')
+    let col = col('.')
+    if line[col - 2] == "\\"
+        "Inserting a quoted quotation mark into the string
+        return a:char
+    elseif line[col - 1] == a:char
+        "Escaping out of the string
+        return "\<Right>"
+    else
+        "Starting a string
+        return a:char.a:char."\<Left>"
+    endif
+endf
+
+inoremap " <c-r>=QuoteDelim('"')<CR>
+inoremap ' <c-r>=QuoteDelim("'")<CR>
+
+vnoremap (  <ESC>`>a)<ESC>`<i(<ESC>
+vnoremap )  <ESC>`>a)<ESC>`<i(<ESC>
+vnoremap {  <ESC>`>a}<ESC>`<i{<ESC>
+vnoremap }  <ESC>`>a}<ESC>`<i{<ESC>
+vnoremap "  <ESC>`>a"<ESC>`<i"<ESC>
+vnoremap '  <ESC>`>a'<ESC>`<i'<ESC>
+vnoremap `  <ESC>`>a`<ESC>`<i`<ESC>
+vnoremap [  <ESC>`>a]<ESC>`<i[<ESC>
+vnoremap ]  <ESC>`>a]<ESC>`<i[<ESC>
+
+function! InAnEmptyPair()
+    let cur = strpart(getline('.'),getpos('.')[2]-2,2)
+    for pair in (split(&matchpairs,',') + ['":"',"':'"])
+        if cur == join(split(pair,':'),'')
+            return 1
+        endif
+    endfor
+    return 0
+endfunc
+
+func! DeleteEmptyPairs()
+    if InAnEmptyPair()
+        return "\<Left>\<Del>\<Del>"
+    else
+        return "\<BS>"
+    endif
+endfunc
+
+inoremap <expr> <BS> DeleteEmptyPairs()
