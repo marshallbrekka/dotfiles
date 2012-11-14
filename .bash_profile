@@ -1,9 +1,9 @@
 export CS_HOME=install_directory_path
 export VIMCLOJURE_SERVER_JAR="$HOME/lib/vimclojure/server-2.3.2.jar"
-export JAVA_OPTS="-Xmx2000m -Xms2000m"
-export JSHINT_CONFIG="/Users/marshall/Dropbox/ReadyForZero/debtapp/qa/run-precommit/jshintrc"
-export RFZ_ROOT="/Users/marshall/Dropbox/ReadyForZero/debtapp"
-alias rfz='cd ~/Dropbox/ReadyForZero/'
+export JAVA_OPTS="-Xmx2000m -Xms2000m -XX:MaxPermSize=512M"
+export JSHINT_CONFIG="/Users/marshall/debtapp/qa/run-precommit/jshintrc"
+export RFZ_ROOT="/Users/marshall/debtapp"
+alias rfz='cd ~/debtapp'
 alias clj="~/Library/Clojure/clj"
 PATH=$PATH:/mongo/bin:$CS_HOME/bin
 export RFZ_ANALYTICS_FILES="/rfz/analytics"

@@ -8,31 +8,158 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/schedule-task
+~MSle0~/email\/
 
 # Last Substitute Search Pattern:
-~MSle0&trie\/get-ids
+~MSle0&'
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq
-:q
-:quit!
-:quit
-:q!
+:23
+:vsplit
+:bd
 :w
-:e! ~/.vimrc.local
 :1
-:syntax on
+:q
+:ls
+:bl
+:28
+:34
+:b 23
+:q!
+:ClojureRepl
+:setlocal wrap
+:b 1
+:retab
+:!
+:quit
+:quit!
+:edit
+:wq
+:2
+:e
+:Q
+:'<,'>1
+:b 4
+:bo 4
+:vsp:q
+:vsplit 2
+:w!
+:imap <c-e> <Esc>G$:call b:vimclojure_repl.enterHook()<CR>
+:imap <c-e> <c-i>
+:imap
+:imap <c-q>CR <c-i>
+:imap <c-q CR> <c-i>
+:imap <c-CR> <c-i>
+:imap <c-cr> <c-i>
+:imap <S-CR> <c-i>
+:imap <M-CR> <c-i>
+:imap <O-CR> <c-i>
+:imap <C-CR> <c-i>
+:imap <buffer> <silent> <C-Enter> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <Enter> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <C-Return> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <c-Enter> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <c-Return> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <S-CR> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <S-Enter> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <S-Return> <Plug>ClojureReplEvaluate. 
+:imap <buffer> <silent> <S-ENTER> <Plug>ClojureReplEvaluate. 
+:Q!
+:imap <c-k> <C-O>:call b:vimclojure_repl.upHistory()<CR>
+:imap <c-j> <Down>
+:imap <c-k> <Up>
+:map <Down> <c-h>
+:map <S-Down> <c-h>
+:exit
+:e .vimrc
+:e .vimrc.local
+:e .vim/bundle/VimClojure/plugin/clojure.vim
+::call b:vimclojure_repl.upHistory()
+:execute "normal \<Plug>ClojureReplUpHistory."
+:execute "input \<Plug>ClojureReplUpHistory."
+:ClojureReplUpHistory.
+:ClojureReplUpHistory
+:q:q
 :e ~/.vimrc.local
+:grep "rhino-env"
+:%s/'/\\"/g
+:b 12
+:split
+:spli
+:b 16
+:b 17
+:%s/1\.6-1/1\.7/g
+:%s/1\.6\.1/1\.6-1/g
+:e ~/.vimrc
+:e project.clj
+:bd!
+:new
+:223
+:193
+:e .git/hooks/
+:e .gitattributes
+:e ./.git/config
+:e ./.git/hooks/pre-commit
+:Edit
+:29
+:27
+:7
+:39
+:39:39
+:108
+:s
+:b70
+:tabnew
+:12
+:%s/linked-debt/linked-debt-citi/g
+:400
+:33
+:41
+:38
+:30
+:55
+:121
+:67
+:47
+:%s/disc/disk/g
+:18
+:W
+:4
+:65
+:61
+:19
+:51
+:.1
+:66
+:tabnew ~/.vimrc.local
+:20
+:14
+:31
+:8
+:vs
+:56
+:54
+:80
+:Tabnew
+:%s/divide-by-num/divide-by-number/g
+:d
+:%s/:all-time/:citi-start-2/g
+:tab
+:e ~/.bash_profile
+:tabn
+:tabp
+:480
+:496
+:bq
+:e! ~/.vimrc.local
+:syntax on
 :vsplit ~/.vimrc.local
 :RainbowParenthesesToggle
 :edit!
-:edit
 :vsplit ~/.vimrc
-:e ~/.vimrc
 :3
 :color solarized
 :color peaksea
@@ -47,7 +174,6 @@ $
 :1041129
 :26428
 :0
-:56
 :vsplit rpps.clj
 :vsplit ../../m2/user.clj
 :e ../../../../../web/rfz/models.py
@@ -58,33 +184,24 @@ $
 :60
 :100
 :vsplit app/src/app/endpoints/stat.clj
-:vsplit
 :vs[;
-:split
-:tabp
-:tabnew
 :e ~/.vimrc.bundles
 :call vimclojure
 :call vimclojure#Repl.New()
 :b app/src/app/daemon.clj
-:bd
 :b app/src/app/analysis/rpps_report.clj
 :bp
 :find rpps_monitor
 :b app/src/app/analysis/rpps_monitor.clj
 :w ~/Dropbox/vim.cheatsheet
 :enew
-:e
 :b app/src/app/datalytics.clj
 :b 
 :bn
-:ls
 :help ctrlp-options
 :help ctrlp_options
 :Gstatus
-:tab
 :g
-:tabn
 :let mapleader = ","
 :help leader
 :version
@@ -98,7 +215,6 @@ $
 :e .chef/plugins/knife/rfz-builds.rb
 :e .gitignore
 :3bw
-:d
 :e ./config/chef-repo/cookbooks/rfz/libraries/dir.rb
 :e .chef/plugins/knife/rfz-ssh.rb
 :%s/10.10.10.106/0.0.0.0/g
@@ -111,7 +227,6 @@ $
 :50
 :e app/src/app/billpay/rpps/confirmed.clj
 :72
-:2
 :118
 :169
 :45
@@ -131,7 +246,6 @@ $
 :vsplit new.txt
 :e new.txt
 :'<,'>17723
-:Q
 :vsplit ./
 :e app/src/app/analysis/billpay_flow.clj
 :e core.clj
@@ -146,9 +260,7 @@ $
 :RainbowParenthesesToggleAll
 :source ~/.vimrc
 :tabnew ~/.vimrc
-:31
 :e ../routing/core.clj
-:'<,'>1
 :e ~/Desktop/new.txt
 :'<,'>1000
 :%s/          /         "/g
@@ -157,13 +269,10 @@ $
 :%s/\]/\}/g
 :%s/\[/#\{/g
 :%s/[/#{/g
-:Edit
 :e ../routing/numbers.clj
 :e ../routing-number/parser.clj
 :help
 :Ex ../
-:66
-:23
 :cw
 :grep -r "Next bill:" *
 :cd app/
@@ -179,8 +288,201 @@ $
 :e tty.sh
 :wbd
 :e screen.c
+:'<,'>s/"/\\"/g
+:132
+:e ./project.clj
+:10
+:e src/hc/core.clj
+:exit!
+:%s/:id/"id":/g
+:%s/name:/"name":/g
+:%s/:name/name:/g
+:e ~/.gitignore
+:731
+:62
+:5
+:Q1
+:map <S-Down> <c-i>
+:imap <S-Down> <c-i>
+:imap <S-Down> <Plug>ClojureReplUpHistory.
+:map <S-Down> <Plug>ClojureReplUpHistory.
+:imap <S-Up> <Plug>ClojureReplUpHistory.
+:imap <Down> <c-i>
+:call b:vimclojure_repl.downHistory()
+:e .vim/bundle/VimClojure/ftplugin/clojure.vim
+:b 2
+:e plugin/clojure.vim
+:Exit
 
 # Search String History (newest to oldest):
+?/23
+?/email\/
+?/send-email
+?/email
+?/high
+?/js
+?/highc
+?/get-graph
+? \<sh\>
+? \<app\.post-commit\.core=>\>
+? ^.*\%29c
+?/attachJs
+?/numbers
+?/routing
+?/deploy-init
+?/csid-and
+?/#{
+?/}
+?/highca
+?/====
+?/resolution
+?/121282371
+?/Down
+?/<Plug>
+?/c-k
+?/c-j
+?/c-U
+?/c-Up
+? \<smoe\>
+? \<command-line-args\.core=>\>
+?/getDefault
+?/Override
+?/Pver
+?/'
+?/SINGLETON
+?/env.rhino
+?/args
+? 1\.6-1
+? 1\.6\.1
+?/ctrlp_working_path_mode
+??2598
+??get-file-path
+??mk-file
+?/with-graphs
+?/with-debt-stats
+?/TODO
+?/key-by
+?/join-statements
+?/join-accounts
+?/with-accounts
+??run-query-balance
+?/run-query-balances
+?/get-accounts
+?/get-snapshots
+?/with-start
+?/normalize-account
+?/debt-stats
+?/debt
+?/makeChart
+?/plots
+?/makeSeries
+?/log
+?/return
+?/prep-fn
+?/prerp-fn
+?/balances
+?/group-by-account
+?/pre
+?/prep-
+??run-query
+?/types
+?/offset
+?/g
+? \<n\>
+?/usr
+?/bin
+??count-user-payments
+??users-payments-since-count
+?/payments
+?/month
+? linked-debt
+?/:credits
+?/lg
+?/lists
+?/sets\/
+?/sets
+?/batch
+?/lksdfjlksdjfslkdjflskdjflskjdf
+?/ 
+?/body
+?/batching
+?/payment
+?/macro
+??average
+?/5 
+?/{5
+??Buffered
+?/test
+?/disc
+?/config
+?/type-key
+?/lg-out
+?/internal
+?/println
+?/sum-days
+?/start-of
+?/value->double
+?/apply-to-va
+?/value->
+?/double
+?/values->
+?/time
+?/noir
+?/merge-acc
+??filter-point
+?/apply ->
+?/sepe
+?/merge
+?/conj-account-timelines
+?/merge-day
+??delta
+?/seper
+??seperate
+??merge-accou
+?/sum-by-
+?/get-offset
+??merge-accounts
+??calc-deltas
+??calc-deltasL
+??extend-to-
+?/seperate-ac
+??prep-points
+?/mongo-collection
+?/k
+?/filter-nil
+?/build-plot
+?/get-de
+?/get-description
+?/offset\/
+?/set
+??time-as-long
+? divide-by-num
+?/get
+?/find-first-day
+?/pass-through-filter
+??pass-through
+??post-sum-
+??merge-batches
+??render
+?/merge-by-start
+?/merge-by-total
+?/dat
+?/src
+?/with-stats
+?/:all-time
+?/all-time
+?/:citi-start-2
+??time-as-jode
+??->joda
+?/time\/day
+?/time/day
+?/process-pl
+??filter-timelines
+??long
+?/get-day
+?/partner
+? \<auto\>
+?/save-partner
 ??schedule-task
 ?/tab
 ?/line
@@ -206,13 +508,10 @@ $
 ?/salie
 ?/save-partner-contexts
 ?/datalytics
-?/with-graphs
 ?/monitor
 ?/rpps
-?/email
 ?/rpps_monitor
 ?/views
-?/src
 ?/regex
 ?/custom_ignore
 ?/wild
@@ -233,7 +532,6 @@ $
 ?/role
 ??get-most
 ??add_
-?/test
 ?/daemon.clj
 ?/dataly
 ? ErrMsg( "Error
@@ -255,7 +553,6 @@ $
 ?/put
 ?/put-
 ?/add-new-file
-??get-file-path
 ?/datal
 ?/directory
 ?/names to
@@ -270,7 +567,6 @@ $
 ?/<C_W>
 ?/<C-W
 ?/<C-W>+
-?/deploy-init
 ?/schedule-atd
 ?/schedule
 ?/:day
@@ -281,7 +577,6 @@ $
 ?/models
 ?/(deftask
 ??provider
-??mk-file
 ?/r:q
 ?/File
 ?/SUNTRUST
@@ -312,7 +607,6 @@ $
 ?/datalyitcs
 ??find-where
 ??find-payments
-?/payments
 ?/063105900
 ?/{
 ?           
@@ -333,1038 +627,307 @@ $
 ??analy
 ??states
 ??account:create
-?/noir
 ?/debtapp_revision
 ?/Lo
 ?/motion
 ?/Motion
 ?/sys\/strop
+??md5sum
+?/read-line
+?/lskdjflskjdflksjdlf
+? "
+?/standardBlue
+?/textColor
+?/length
+?/getDate
+??klsdjflskjdflksjdlfkjslkdjflskdfj
+?/addCommas
+?/file-name
+?/build-war
+?/build
+?/Uber War
+??resp
+?/cache-control
+?/logo.png
+??defpage
+?/defpage-lo
+??l
+?/type-to-name
+?/get-host
+??helpers
+?/render-email
+?/tem
+?/tracking-pixel
+?/tracking
+?/tracker
+?/p\/t.gif
+? :id
+? name:
+? :name
+? \<timeline\/deltas->values\>
+?/import-yodlee-aliases
+?/import-yodlee-names
+??yodlee-names
+??get-users-fn
+?/purge
+??send-to-s3
+??with-graph
+?/deltas
+?/detlas->values
+?/citi2-
+?/pilot-users
+?/for-period
+?/citi-context
+?/get-context
+?/stat
+?/graph
+?/report-data
+?/send-citi-report-with-pdf/report-data
+?/citi2
+?/with-cur
+?/get-account-
+?/get-account-ids
+?/citi-periods
+?/with-debt
+?/total-loans
+?/total-laons
+?/get-loans-by-type
+?/get-account
+?/get-account-id
+?/get-use
+?/ids->usernames
+?/citi-users
+?/context
+?/select
+?/s
+?/select*
+?/with-dept
+?/debt-for-period
+?/get-loan
+?/->usernames
+?/user
+?/itemDisplayName
+?/date-formatter
+??short-periods
+?/citi
+?/users
+?/Login
+?/portal
+?/rpps-wrong-results
+?/names
+?/keymap
+?/clojure_repl
+?/ReplEvaluate
+??ctrlp_custom_ignore
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@/Users/marshall/debtapp/app/src/app/post_commit.clj post_commit/core.clj
+@yes
+@/Users/marshall/clj-highcharts/src/clj-highcharts
+@/Users/marshall/debtapp/app/src/app/datalytics/merge_map.clj
 @/Users/marshall/Dropbox/ReadyForZero/debtapp/app/src/app/analysis/rpps_report.clj
 @/Users/marshall/Dropbox/ReadyForZero/debtapp/app/resources/server/templates/email/rpps_report_text.mustache
 @/Users/marshall/Dropbox/ReadyForZero/debtapp/app/resources/server/templates/email/rpps_report.mustache
 @routing-number
 @y
+@/Users/marshall/clj-highcharts/src/clj_highcharts/fn.clj
 
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	syntax on
+""0	CHAR	0
+	c
 "1	LINE	0
-	filetype plugin indent on
+	app.post-commit.core=> 
 "2	LINE	0
-	syntax on
+	app.post-commit.core=> 
 "3	LINE	0
-	#autocmd VimEnter * RainbowParenthesesToggle
-"4	LINE	0
+	app.post-commit.core=> 
+"4	CHAR	0
+	 ;; TODO email test results
 	
-"5	LINE	0
-	kien/rainbow_parentheses.vim 
-"6	LINE	0
+"5	CHAR	0
+	(-> 
+	                  (:out)
+	                  
+"6	CHAR	0
+	 ;; TODO pull from config
 	
 "7	LINE	0
-	
+	            [clojure.sets :as sets]
 "8	LINE	0
-	    account_num_regex       = models.CharField(max_length=100)
+	app.post-commit.core=> (test-commit "4369bf756e4c5c02428c643550078e36f95a98e6")
 "9	LINE	0
-	BillPay
-""-	CHAR	0
-	h hello there
+	app.post-commit.core=> (test-commit "4369bf756e4c5c02428c643550078e36f95a98e6")
+"u	CHAR	0
+	367
+<ire guuuuulcore.cl€kuhkkkkkkkkv$G$ylv$p:whkjjjkkkkrjdmmmkjmdyesylhkjjlllllllllllxjxjxjxelx:wjjjjjji-kjbbbbllllehhhhhi-jjjjjli-slxjjjjkj:whSampleskkljjjjjklhh:1Simplejjjjjjjjjjjjjjjjlewwwwwblllllllljkkkkkkjjjjjhhxi/getSingleton:whjjjjjjjjjjjSimpl€kb€kb€kb€kbs€kbSimlkkjjjikkllkjlkjlkjdlkjkjkjkjk
+"v	CHAR	0
+	4
+"-	CHAR	0
+	df2ea8b85bfdcfb3cd984787c2c29cc5f3ce89c7
 
 # File marks:
-'0  1  1  /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/bash-fc-1350865610
-'1  23  8  ~/.bash_profile
-'2  9  5  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
-'3  4  0  ~/.vimrc.local
-'4  4  8  ~/.vimrc.local
-'5  2  0  ~/.vimrc.local
-'6  4  0  ~/.vimrc.local
-'7  6  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
-'8  288  22  ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
-'9  78  6  ~/.vimrc
+'0  19  6  ~/debtapp/app/NERD_tree_1
+'1  41  32  ~/debtapp/app/src/app/post_commit/test.clj
+'3  13  15  ~/debtapp/app/src/app/billpay/rpps/confirmed.clj
+'4  188  36  ~/debtapp/app/src/app/m2/partner.clj
+'6  220  0  ~/debtapp/app/lib/httpcore-4.2.2.jar
+'8  10  25  ~/debtapp/app/src/app/post_commit/core.clj
+'9  2  0  ~/debtapp/app/leiningen/vimclojure_buffer_000000
 
 # Jumplist (newest first):
--'  1  1  /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/bash-fc-1350865610
--'  23  8  ~/.bash_profile
--'  22  104  ~/.bash_profile
--'  7  0  ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
--'  3  45  ~/.vimrc.local
--'  9  5  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
--'  1  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
--'  2  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
--'  4  0  ~/.vimrc.local
--'  6  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
--'  2  0  ~/.vimrc.local
--'  1  0  ~/.vimrc.local
--'  288  22  ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
--'  272  38  ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
--'  126  0  ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
--'  1  38  ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
--'  78  6  ~/.vimrc
--'  1  0  ~/.vimrc
--'  82  1  ~/.vimrc
--'  490  0  ~/.vimrc
--'  2  35  ~/.vimrc.bundles.local
--'  19  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/models/congress_info.clj
--'  1  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/models/congress_info.clj
--'  1  0  ~/.spf13-vim-3/vim
--'  2  0  ~/Dropbox/ReadyForZero/debtapp/app/[Vundle] clean
--'  20873  5  ~/Desktop/BillerDirectory.csv
--'  5295  5  ~/Desktop/BillerDirectory.csv
--'  1044594  14  ~/Desktop/BillerDirectory.csv
--'  1714006  7  ~/Desktop/BillerDirectory.csv
--'  1069066  19  ~/Desktop/BillerDirectory.csv
--'  1069065  19  ~/Desktop/BillerDirectory.csv
--'  1747049  10  ~/Desktop/BillerDirectory.csv
--'  1746605  11  ~/Desktop/BillerDirectory.csv
--'  1731396  18  ~/Desktop/BillerDirectory.csv
--'  1715405  7  ~/Desktop/BillerDirectory.csv
--'  1023094  66  ~/Desktop/BillerDirectory.csv
--'  1  0  ~/Desktop/BillerDirectory.csv
--'  1023094  6  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240853  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240826  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240799  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1241096  95  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1241069  96  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1241042  95  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1241015  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240988  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240961  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240934  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240907  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1240880  93  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736292  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736287  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736260  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736247  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736246  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736245  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736240  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736237  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736220  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736215  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736205  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736197  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736192  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736191  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736188  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736181  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736166  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736159  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736141  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736124  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736096  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736095  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736093  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736057  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736056  84  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736050  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736042  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736037  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736029  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1736024  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735997  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735984  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735983  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735982  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735977  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735974  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735957  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735952  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735942  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735934  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735929  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735928  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  1735925  85  ~/Desktop/BillerDirectory-2012-09-14.csv
--'  7  0  ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
--'  3  45  ~/.vimrc.local
--'  9  5  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
--'  1  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
--'  2  0  ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
--'  4  0  ~/.vimrc.local
+-'  19  6  ~/debtapp/app/NERD_tree_1
+-'  44  2  ~/debtapp/app/NERD_tree_1
+-'  1  8  ~/debtapp/app/NERD_tree_1
+-'  4  5  ~/debtapp/app/resources/server/templates/email/test_results.mustache
+-'  79  6  ~/debtapp/app/src/app/models/email.clj
+-'  4  4  ~/debtapp/app/src/app/models/email.clj
+-'  1  0  ~/debtapp/app/src/app/models/email.clj
+-'  5  4  ~/debtapp/app/src/app/models/email.clj
+-'  66  6  ~/debtapp/app/src/app/models/email.clj
+-'  1  0  ~/debtapp/app/src/app/analysis/citi.clj
+-'  52  0  ~/debtapp/app/src/app/util/email.clj
+-'  33  3  ~/debtapp/var/service-prod.json
+-'  8  0  ~/debtapp/config/chef-repo/cookbooks/rfz/recipes/daemons.rb
+-'  547  31  ~/debtapp/app/src/app/views/external.clj
+-'  13  48  ~/debtapp/app/src/app/views/external.clj
+-'  523  2  ~/debtapp/app/src/app/views/external.clj
+-'  454  23  ~/debtapp/app/src/app/views/external.clj
+-'  262  14  ~/debtapp/app/src/app/endpoints/web2.clj
+-'  6  0  ~/debtapp/app/src/app/endpoints/util.clj
+-'  1  0  ~/debtapp/app/src/app/endpoints/dev.clj
+-'  1  0  ~/debtapp/app/src/app/util/time.clj
+-'  228  6  ~/debtapp/app/src/app/datalytics/file_io.clj
+-'  1  0  ~/debtapp/app/src/app/datalytics/file_io.clj
+-'  39  2  ~/debtapp/app/src/app/daemon.clj
+-'  42  66  ~/debtapp/app/src/app/daemon.clj
+-'  1  0  ~/debtapp/app/src/app/daemon.clj
+-'  13  30  ~/debtapp/app/src/app/post_commit/commits.clj
+-'  10  9  ~/debtapp/app/src/app/post_commit/commits.clj
+-'  1  0  ~/debtapp/app/src/app/post_commit/commits.clj
+-'  12  46  ~/debtapp/app/src/app/post_commit/commits.clj
+-'  43  28  ~/debtapp/app/src/app/post_commit/test.clj
+-'  11  20  ~/debtapp/app/test/app/test/billpay/rpps/pattern.clj
+-'  5  0  ~/debtapp/app/test/app/test/billpay/rpps/pattern.clj
+-'  30  38  ~/debtapp/app/test/app/test/billpay/rpps/pattern.clj
+-'  1  0  ~/debtapp/app/test/app/test/billpay/rpps/pattern.clj
+-'  4  26  ~/debtapp/app/test/app/test/billpay/rpps/pattern.clj
+-'  49  31  ~/debtapp/app/src/app/post_commit/test.clj
+-'  56  13  ~/debtapp/app/src/app/post_commit/test.clj
+-'  1  0  ~/debtapp/app/src/app/post_commit/test.clj
+-'  32  7  ~/debtapp/app/src/app/post_commit/test.clj
 
 # History of marks within files (newest to oldest):
 
-> /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/bash-fc-1350865610
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
-
-> ~/.bash_profile
-	"	23	8
-	^	23	9
-	.	23	8
-	+	20	20
-	+	21	13
-	+	22	13
-	+	21	106
-	+	22	125
-	+	23	8
-
-> ~/Dropbox/ReadyForZero/debtapp/ControlP
-	"	4	0
-	.	2	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	2	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/leiningen/rfz.clj
-	"	7	0
-	^	6	6
-	.	7	0
-	+	1	76
-	+	1	82
-	+	1	71
-	+	1	0
-	+	272	0
-	+	8	0
-	+	5	6
-	+	7	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/leiningen/ControlP
-	"	10	0
-	.	2	0
-	+	2	0
-
-> ~/.vimrc.local
-	"	3	45
-	^	3	46
-	.	3	45
-	+	1	44
-	+	4	0
-	+	1	45
-	+	2	28
-	+	4	0
-	+	4	25
-	+	4	0
-	+	3	45
-
-> ~/Dropbox/ReadyForZero/debtapp/config/chef-repo/environments/stage.json
-	"	24	19
-	^	24	19
-	.	24	19
-	+	24	19
-
-> ~/Dropbox/ReadyForZero/debtapp/config/chef-repo/cookbooks/rfz/metadata.rb
-	"	1	0
-	^	16	23
-	.	16	22
-	+	16	22
-
-> ~/Dropbox/ReadyForZero/debtapp/config/chef-repo/cookbooks/rfz/recipes/datalytics.rb
-	"	9	25
-	^	12	32
-	.	10	0
-	+	3	77
-	+	9	58
-	+	12	0
-	+	9	0
-	+	10	0
-
-> ~/Dropbox/ReadyForZero/debtapp/NERD_tree_1
-	"	21	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Downloads/screen-4.0.2/process.c
-	"	41	2
-	^	41	3
-	.	6172	0
-	+	41	2
-	+	6172	0
-
-> ~/Downloads/screen-4.0.2/ControlP
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Downloads/screen-4.0.2/pty.c
-	"	38	2
-	^	38	3
-	.	387	0
-	+	38	2
-	+	387	0
-
-> ~/Downloads/screen-4.0.2/screen.c
-	"	54	2
-	^	54	3
-	.	3176	0
-	+	54	2
-	+	3176	0
-
-> ~/Downloads/screen-4.0.2/tty.sh
-	"	80	2
-	^	80	3
-	.	80	2
-	+	80	2
-
-> ~/Dropbox/ReadyForZero/debtapp/config/chef-repo/environments/README.md
-	"	5	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/datalytics/file_io.clj
-	"	75	2
-	^	75	3
-	.	78	0
-	+	94	0
-	+	12	32
-	+	96	60
-	+	97	21
-	+	98	0
-	+	97	23
-	+	122	0
-	+	121	40
-	+	118	32
-	+	211	26
-	+	211	24
-	+	212	8
-	+	211	71
-	+	184	2
-	+	186	25
-	+	108	0
-	+	107	15
-	+	184	2
-	+	186	25
-	+	214	4
-	+	216	56
-	+	214	4
-	+	216	56
-	+	214	4
-	+	213	41
-	+	206	65
-	+	207	41
-	+	158	14
-	+	160	0
-	+	161	69
-	+	162	27
-	+	163	0
-	+	167	55
-	+	161	68
-	+	164	0
-	+	163	15
-	+	164	10
-	+	165	10
-	+	166	10
-	+	167	61
-	+	8	23
-	+	96	57
-	+	105	80
-	+	201	62
-	+	115	47
-	+	116	28
-	+	159	0
-	+	158	72
-	+	161	66
-	+	161	64
-	+	162	0
-	+	106	49
-	+	191	0
-	+	189	65
-	+	190	61
-	+	183	81
-	+	5	0
-	+	5	34
-	+	172	55
-	+	157	0
-	+	156	0
-	+	154	47
-	+	155	2
-	+	144	14
-	+	146	0
-	+	145	70
-	+	136	0
-	+	135	0
-	+	134	77
-	+	124	24
-	+	127	0
-	+	129	70
-	+	126	41
-	+	110	17
-	+	113	0
-	+	112	39
-	+	99	35
-	+	102	0
-	+	101	32
-	+	100	31
-	+	92	0
-	+	91	44
-	+	62	0
-	+	61	16
-	+	37	0
-	+	36	32
-	+	27	0
-	+	26	77
-	+	5	0
-	+	4	0
-	+	1	0
-	+	5	0
-	+	3	0
-	+	2	2
-	+	5	0
-	+	91	45
-	+	74	0
-	+	75	0
-	+	74	0
-	+	78	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/datalytics.clj
-	"	21	35
-	^	21	84
-	.	21	83
-	+	16	41
-	+	24	29
-	+	27	34
-	+	58	23
-	+	30	39
-	+	59	20
-	+	75	54
-	+	1	0
-	+	24	47
-	+	20	9
-	+	41	19
-	+	20	10
-	+	20	9
-	+	41	19
-	+	37	8
-	+	37	22
-	+	35	16
-	+	73	37
-	+	75	41
-	+	19	0
-	+	20	29
-	+	40	30
-	+	20	13
-	+	24	20
-	+	28	39
-	+	32	55
-	+	33	61
-	+	54	110
-	+	55	0
-	+	53	0
-	+	51	18
-	+	53	2
-	+	51	22
-	+	53	0
-	+	58	2
-	+	51	18
-	+	52	7
-	+	53	0
-	+	57	106
-	+	58	0
-	+	37	31
-	+	20	30
-	+	54	25
-	+	36	41
-	+	34	34
-	+	20	0
+> ~/debtapp/app/src/app/post_commit/test.clj
+	"	14	45
+	^	14	46
+	.	14	45
+	+	33	13
+	+	33	24
+	+	33	25
+	+	55	31
+	+	56	25
+	+	56	32
+	+	34	27
+	+	35	48
+	+	35	38
+	+	35	48
+	+	35	42
+	+	35	52
+	+	34	16
+	+	39	0
+	+	35	30
+	+	35	2
+	+	40	19
+	+	46	28
+	+	40	27
 	+	40	0
-	+	20	0
-	+	20	31
-	+	20	41
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	25
-	+	20	0
-	+	20	25
-	+	20	0
-	+	20	0
-	+	20	18
-	+	20	0
+	+	40	0
+	+	35	24
+	+	40	11
+	+	37	22
+	+	38	31
+	+	40	22
+	+	40	20
+	+	40	33
+	+	40	45
 	+	41	0
-	+	20	2
-	+	20	0
-	+	20	24
-	+	20	0
-	+	20	0
-	+	41	0
-	+	46	47
-	+	20	29
-	+	20	30
-	+	20	18
-	+	42	6
-	+	20	0
-	+	20	40
-	+	20	13
-	+	20	0
-	+	20	39
-	+	20	0
-	+	24	0
-	+	43	0
-	+	42	21
-	+	20	27
-	+	49	7
-	+	49	46
-	+	49	20
-	+	20	22
-	+	21	2
-	+	23	0
-	+	21	65
-	+	23	0
-	+	42	24
-	+	20	0
-	+	44	36
-	+	50	0
-	+	47	21
-	+	44	32
-	+	54	16
-	+	21	76
-	+	22	29
-	+	21	83
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/datalytics/disc.clj
-	"	209	12
-	^	209	21
-	.	209	12
-	+	239	0
-	+	238	0
-	+	211	16
-	+	212	33
-	+	211	17
-	+	212	41
-	+	226	42
-	+	227	0
-	+	204	0
-	+	195	0
-	+	184	0
-	+	209	20
-	+	67	30
-	+	213	28
-	+	209	12
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/analysis/rpps_monitor.clj
-	"	247	25
-	^	3	28
-	.	3	27
-	+	54	23
-	+	51	0
-	+	18	33
-	+	20	50
-	+	172	66
-	+	172	0
-	+	172	66
-	+	172	67
-	+	172	0
-	+	188	0
-	+	47	7
-	+	47	0
-	+	51	33
-	+	47	50
-	+	47	12
-	+	47	59
-	+	51	0
-	+	38	19
-	+	47	59
-	+	241	41
-	+	243	56
-	+	244	41
-	+	144	0
-	+	244	0
-	+	2	0
-	+	244	37
-	+	34	0
-	+	37	45
-	+	37	61
-	+	75	34
-	+	79	35
-	+	37	0
-	+	37	62
-	+	37	0
-	+	37	0
-	+	37	66
-	+	67	69
-	+	68	65
-	+	71	74
-	+	72	70
-	+	68	93
-	+	72	72
-	+	73	0
-	+	37	0
-	+	75	69
-	+	76	23
-	+	79	74
-	+	80	23
-	+	172	103
-	+	172	23
-	+	172	0
-	+	214	0
-	+	216	30
-	+	217	66
-	+	218	63
-	+	221	53
-	+	228	45
-	+	178	0
-	+	172	87
-	+	172	89
-	+	168	0
-	+	171	87
-	+	8	36
-	+	162	22
-	+	168	43
-	+	169	33
-	+	170	35
-	+	171	35
-	+	5	58
-	+	183	23
-	+	184	18
-	+	183	22
-	+	182	23
-	+	185	23
-	+	186	49
-	+	187	32
-	+	50	0
-	+	49	40
-	+	50	26
-	+	59	35
-	+	64	35
-	+	164	0
-	+	166	34
-	+	166	32
-	+	167	0
-	+	187	65
-	+	168	129
-	+	169	130
-	+	50	88
-	+	186	31
-	+	226	48
-	+	236	22
-	+	237	31
-	+	240	46
-	+	246	36
-	+	230	21
-	+	233	30
-	+	230	16
-	+	189	22
-	+	3	27
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/server/templates/email/rpps_monitor_status_text.mustache
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/daemon.clj
-	"	149	2
-	^	133	66
-	.	149	2
-	+	57	40
-	+	57	31
-	+	59	29
-	+	113	0
-	+	57	70
-	+	58	0
-	+	57	64
-	+	56	18
-	+	57	63
-	+	12	0
-	+	10	49
-	+	111	64
-	+	59	19
-	+	61	21
-	+	62	66
-	+	11	12
-	+	12	0
-	+	11	53
-	+	64	28
-	+	112	2
-	+	113	0
-	+	112	66
-	+	69	24
-	+	159	17
-	+	24	60
-	+	132	47
-	+	150	54
-	+	152	8
-	+	132	0
-	+	130	0
-	+	137	0
-	+	143	0
-	+	136	33
-	+	134	5
-	+	163	0
-	+	132	29
-	+	163	24
-	+	132	2
-	+	171	33
-	+	163	8
-	+	162	55
-	+	171	17
-	+	171	0
-	+	133	33
-	+	135	34
-	+	109	0
-	+	109	0
-	+	109	0
-	+	102	36
-	+	103	46
-	+	101	2
-	+	102	2
-	+	103	2
-	+	102	0
-	+	19	42
-	+	102	28
-	+	95	0
-	+	107	50
-	+	95	28
-	+	95	38
-	+	95	44
-	+	101	28
-	+	97	0
-	+	95	0
-	+	101	32
-	+	24	52
-	+	130	24
-	+	131	36
-	+	130	1
-	+	130	0
-	+	131	42
-	+	132	30
-	+	134	31
-	+	133	13
-	+	160	2
-	+	161	39
-	+	160	39
-	+	129	25
-	+	133	0
-	+	149	2
-
-> ~/Dropbox/ReadyForZero/debtapp/[BufExplorer]
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/analysis/rpps_report.clj
-	"	144	24
-	^	144	30
-	.	144	28
-	+	144	28
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/views/datalytics.clj
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/m2/partner.clj
-	"	204	6
-	.	457	0
-	+	206	10
-	+	457	9
-	+	457	0
-
-> ~/.vimrc.bundles.local
-	"	3	25
-	^	2	9
-	.	2	0
-	+	2	0
-
-> ~/.vimrc.bundles
-	"	78	0
-	^	99	13
-	.	86	12
-	+	81	9
-	+	80	8
-	+	81	8
-	+	80	0
-	+	81	0
-	+	80	0
-	+	80	0
-	+	96	0
-	+	86	12
-	+	126	0
-	+	80	12
-	+	103	12
-	+	99	12
-	+	106	16
-	+	86	12
-
-> ~/Dropbox/ReadyForZero/debtapp/[Vundle] Installer
-	"	50	0
-	.	1	0
-	+	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/[Vundle] clean
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/.spf13-vim-3/.vim/bundle/ctrlp.vim/doc/ctrlp.txt
-	"	102	0
-
-> ~/.vimrc
-	"	403	53
-	^	403	54
-	.	403	53
-	+	50	0
-	+	51	0
-	+	52	0
-	+	55	0
-	+	56	0
-	+	57	0
-	+	61	0
-	+	60	0
-	+	62	0
-	+	50	3
-	+	51	3
-	+	52	3
-	+	55	3
-	+	56	3
-	+	57	3
-	+	60	3
-	+	61	3
-	+	62	3
-	+	50	2
-	+	51	2
-	+	52	2
-	+	55	2
-	+	56	2
-	+	57	2
-	+	60	2
-	+	61	2
-	+	62	2
-	+	60	0
-	+	71	0
-	+	191	0
-	+	192	0
-	+	193	0
-	+	194	0
-	+	403	53
-
-> ~/Dropbox/ReadyForZero/debtapp/config/chef-repo/cookbooks/rfz/templates/default/service.json.erb
-	"	3	3
-	^	99	23
-	.	99	22
-	+	99	22
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/config.clj
-	"	55	40
-	.	56	0
-	+	56	0
-
-> ~/Dropbox/ReadyForZero/debtapp/config/service.json
-	"	3	13
-	^	3	14
-	.	3	13
-	+	12	3
-	+	13	24
-	+	14	16
-	+	7	17
-	+	8	25
-	+	9	25
-	+	10	31
-	+	13	21
-	+	14	15
-	+	13	24
-	+	14	16
-	+	24	3
-	+	24	27
-	+	24	0
-	+	12	30
-	+	28	54
-	+	29	0
-	+	26	25
-	+	12	29
-	+	36	27
-	+	36	28
-	+	37	0
-	+	36	25
-	+	13	19
-	+	6	20
-	+	48	35
-	+	36	27
-	+	36	24
-	+	48	31
-	+	6	20
-	+	13	19
-	+	36	28
-	+	36	24
-	+	1	27
-	+	6	20
-	+	13	19
+	+	40	58
+	+	41	2
+	+	43	24
+	+	41	32
+	+	37	20
+	+	38	37
+	+	40	24
+	+	41	16
+	+	40	0
+	+	45	0
+	+	44	0
+	+	46	0
 	+	48	0
-	+	1	0
-	+	6	0
-	+	1	26
-	+	4	0
-	+	3	13
+	+	45	26
+	+	48	0
+	+	45	26
+	+	46	52
+	+	48	29
+	+	49	49
+	+	59	6
+	+	40	0
+	+	57	31
+	+	58	36
+	+	60	0
+	+	59	0
+	+	60	19
+	+	61	25
+	+	62	26
+	+	63	24
+	+	32	93
+	+	33	25
+	+	41	32
+	+	23	34
+	+	12	8
+	+	12	8
+	+	13	3
+	+	19	1
+	+	16	47
+	+	17	14
+	+	18	38
+	+	19	0
+	+	23	7
+	+	32	29
+	+	28	26
+	+	29	99
+	+	32	33
+	+	33	0
+	+	32	30
+	+	56	36
+	+	57	0
+	+	56	39
+	+	40	56
+	+	51	25
+	+	52	30
+	+	53	19
+	+	56	23
+	+	53	27
+	+	46	32
+	+	49	31
+	+	14	34
+	+	6	11
+	+	5	33
+	+	14	62
+	+	16	0
+	+	14	62
+	+	2	0
+	+	1	34
+	+	2	65
+	+	29	0
+	+	14	45
 
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/js/flows/signup.js
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/js/views/dashboard/signup/tos.js
-	"	12	21
-	^	12	22
-	.	53	0
-	+	12	21
-	+	53	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/js/lib/local-jquery.js
-	"	389	45
-	^	389	45
-	.	389	0
-	+	389	0
-
-> ~/.spf13-vim-3/.vim/bundle/vim-easymotion/doc/easymotion.txt
-	"	275	0
-
-> ~/Dropbox/ReadyForZero/debtapp/.git/index
-	"	1	0
-
-> fugitive:///Users/marshall/Dropbox/ReadyForZero/debtapp/.git//0/app/src/app/datalytics/file_io.clj
-	"	74	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/js/lib/widget-logout.js
-	"	27	5
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/js/lib/ControlP
+> ~/debtapp/app/ControlP
 	"	2	0
 	.	2	0
 	+	1	0
@@ -1381,680 +944,1572 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	5	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	2	0
 
-> ~/Dropbox/ReadyForZero/debtapp/config/chef-repo/cookbooks/rfz/templates/default/service.json.er
-	"	1	0
-
-> chef-repo/cookbooks/rfz/templates/default/service.json.erb
-	"	1	0
-
-> chef-repo/cookbooks/rfz/templates/default/service.json.er
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/policies.clj
-	"	20	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/core/internal/s3.clj
-	"	59	24
-	^	59	25
-	.	59	24
-	+	51	20
+> ~/debtapp/app/vimclojure_buffer_000000
+	"	78	23
+	^	78	23
+	.	78	0
+	+	19	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	21	34
+	+	22	28
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	24	67
+	+	79	0
+	+	79	0
+	+	26	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	28	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	30	33
+	+	79	0
+	+	32	34
+	+	34	36
+	+	36	36
+	+	38	67
+	+	79	0
+	+	40	51
+	+	42	86
+	+	44	88
+	+	46	37
+	+	79	0
+	+	79	0
+	+	48	30
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	50	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
 	+	52	0
-	+	51	27
-	+	52	2
-	+	51	23
-	+	49	72
-	+	51	25
-	+	54	13
-	+	54	16
-	+	52	4
-	+	53	5
-	+	54	5
-	+	54	23
-	+	55	7
-	+	50	28
-	+	58	20
-	+	59	24
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/util/io.clj
-	"	1	0
-	^	39	22
-	.	39	21
-	+	33	5
-	+	39	0
-	+	3	3
-	+	39	1
-	+	36	34
-	+	40	21
-	+	36	39
-	+	40	23
-	+	39	19
-	+	3	36
-	+	3	0
-	+	3	57
-	+	33	41
-	+	33	4
-	+	3	51
-	+	33	4
-	+	33	4
-	+	33	4
-	+	33	28
-	+	33	4
-	+	33	4
-	+	30	29
-	+	32	38
-	+	3	53
-	+	3	31
-	+	32	27
-	+	3	0
-	+	3	54
-	+	32	0
-	+	31	41
-	+	36	0
-	+	35	0
-	+	32	36
-	+	3	0
-	+	34	3
-	+	32	0
-	+	33	0
-	+	27	20
-	+	29	0
-	+	28	27
-	+	38	0
-	+	37	30
-	+	27	18
-	+	36	19
-	+	3	0
-	+	32	32
-	+	39	32
-	+	28	14
-	+	37	26
-	+	2	37
-	+	32	22
-	+	39	21
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/datalytics/config.clj
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/confirmed.clj
-	"	25	20
-	^	25	21
-	.	25	20
-	+	7	27
-	+	9	12
-	+	7	26
-	+	9	16
-	+	10	15
-	+	1	63
-	+	3	35
-	+	4	0
-	+	15	17
-	+	21	6
-	+	17	15
-	+	21	27
-	+	9	0
-	+	7	15
-	+	25	0
-	+	22	0
-	+	25	17
-	+	20	20
-	+	21	0
-	+	25	20
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/search.clj
-	"	1	0
-	^	81	18
-	.	81	17
-	+	92	47
-	+	115	42
-	+	92	21
-	+	91	0
-	+	90	48
-	+	84	45
-	+	86	27
-	+	87	32
-	+	90	0
-	+	90	33
-	+	86	27
-	+	87	41
-	+	90	0
-	+	90	50
-	+	93	38
-	+	94	0
-	+	95	0
-	+	94	43
-	+	80	0
-	+	21	28
-	+	24	27
-	+	95	71
-	+	90	0
-	+	89	40
-	+	95	0
-	+	94	43
-	+	35	38
-	+	42	26
-	+	37	13
-	+	39	6
-	+	37	56
-	+	39	17
-	+	40	13
-	+	41	19
-	+	42	37
-	+	45	25
-	+	37	12
-	+	39	15
-	+	40	23
-	+	38	25
-	+	35	51
-	+	42	69
-	+	20	0
-	+	42	36
-	+	36	27
-	+	45	30
-	+	10	0
-	+	9	50
-	+	104	61
-	+	102	57
-	+	50	41
-	+	52	39
-	+	53	34
-	+	49	0
-	+	102	0
-	+	102	25
-	+	4	0
-	+	3	47
-	+	102	72
-	+	102	19
-	+	56	33
-	+	57	57
-	+	60	34
-	+	62	27
-	+	102	55
-	+	103	0
-	+	104	0
-	+	104	81
-	+	105	29
-	+	102	0
-	+	100	0
-	+	96	0
-	+	99	25
-	+	98	42
-	+	99	0
-	+	98	28
-	+	101	50
-	+	105	8
-	+	56	4
-	+	60	34
-	+	20	14
-	+	58	27
-	+	58	0
-	+	20	0
-	+	97	41
-	+	102	34
-	+	45	16
-	+	51	25
-	+	27	61
-	+	28	33
-	+	29	0
-	+	30	0
-	+	5	50
-	+	51	25
-	+	52	25
-	+	52	0
-	+	51	0
-	+	74	40
-	+	76	46
-	+	81	17
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/core.clj
-	"	32	0
-	^	122	12
-	.	123	0
-	+	116	46
-	+	119	56
-	+	111	17
-	+	111	25
-	+	111	20
-	+	111	31
-	+	58	5
-	+	76	32
-	+	99	43
-	+	99	44
-	+	99	37
-	+	99	44
-	+	99	76
-	+	76	19
-	+	98	0
-	+	99	0
-	+	100	26
-	+	76	16
-	+	55	0
-	+	58	64
-	+	58	38
-	+	58	44
-	+	111	14
-	+	111	39
-	+	111	40
-	+	111	40
-	+	111	39
-	+	111	6
-	+	111	46
-	+	111	0
-	+	100	0
-	+	100	0
-	+	76	19
-	+	98	0
-	+	76	17
-	+	70	2
-	+	72	0
-	+	71	6
-	+	72	0
-	+	71	5
-	+	72	8
-	+	69	43
-	+	72	68
-	+	73	72
-	+	75	5
-	+	76	0
-	+	111	14
-	+	70	48
-	+	111	38
-	+	69	11
-	+	111	43
-	+	59	40
-	+	60	0
-	+	59	7
-	+	66	23
-	+	65	0
-	+	67	5
-	+	58	39
-	+	58	50
-	+	58	47
-	+	58	29
-	+	58	36
-	+	58	0
-	+	58	0
-	+	58	0
-	+	58	0
-	+	111	58
-	+	58	0
-	+	100	0
-	+	110	47
-	+	76	0
-	+	94	17
-	+	97	0
-	+	96	32
-	+	97	29
-	+	98	26
-	+	99	30
-	+	96	32
-	+	101	29
-	+	104	0
-	+	102	13
-	+	95	13
-	+	103	2
+	+	54	59
+	+	56	47
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
 	+	58	0
 	+	79	0
-	+	78	21
-	+	106	7
-	+	111	0
-	+	80	0
-	+	94	0
-	+	111	0
-	+	61	5
-	+	64	21
-	+	67	5
-	+	106	7
-	+	7	0
-	+	88	63
-	+	89	54
-	+	123	4
-	+	123	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/yodlee_alias.clj
-	"	50	0
-	^	30	46
-	.	45	0
-	+	71	0
-	+	38	54
-	+	71	0
-	+	41	45
-	+	43	18
-	+	23	28
-	+	24	21
-	+	32	14
-	+	39	31
-	+	40	56
-	+	41	37
-	+	44	17
-	+	40	52
-	+	50	41
-	+	50	26
-	+	6	0
-	+	9	8
-	+	10	7
-	+	9	48
-	+	56	7
-	+	41	44
-	+	42	59
-	+	57	15
-	+	71	0
-	+	58	0
-	+	10	39
-	+	58	47
-	+	59	61
-	+	71	29
-	+	50	34
-	+	71	0
-	+	67	75
-	+	42	47
-	+	41	44
-	+	67	58
-	+	67	20
-	+	67	55
-	+	67	34
-	+	15	50
-	+	29	68
-	+	30	44
-	+	15	50
-	+	50	0
-	+	30	45
-	+	55	46
-	+	67	92
-	+	8	41
-	+	32	9
-	+	46	24
-	+	67	63
-	+	5	0
-	+	5	0
-	+	11	0
-	+	12	98
-	+	15	100
-	+	17	18
-	+	22	0
-	+	18	69
-	+	28	0
-	+	27	51
-	+	35	0
-	+	34	0
-	+	33	38
-	+	19	53
-	+	46	0
-	+	46	95
-	+	54	0
-	+	53	20
-	+	67	49
-	+	20	0
-	+	71	51
-	+	71	0
-	+	67	0
-	+	68	0
-	+	46	17
-	+	46	0
-	+	48	17
-	+	71	0
-	+	46	5
-	+	71	0
-	+	70	23
-	+	67	17
-	+	57	14
-	+	59	62
-	+	60	63
-	+	60	0
-	+	61	24
-	+	63	52
-	+	66	20
-	+	67	0
-	+	63	49
-	+	61	10
-	+	50	0
-	+	61	0
-	+	60	37
-	+	21	38
-	+	22	33
-	+	30	45
-	+	46	0
-	+	45	0
-
-> ~/Dropbox/ReadyForZero/debtapp/.chef/plugins/knife/rfz-builds.rb
-	"	81	23
-	^	67	30
-	.	67	29
-	+	106	5
-	+	46	40
-	+	96	55
-	+	89	29
-	+	67	29
-
-> ~/Dropbox/ReadyForZero/debtapp/.chef/plugins/knife/rfz-base.rb
-	"	9	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/test/app/test/l2/core.clj
-	"	90	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/l2/loggers/core.clj
-	"	4	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/l2/query_tools.clj
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/l2/core.clj
-	"	63	0
-	^	63	57
-	.	63	0
-	+	55	56
-	+	63	0
-	+	94	0
-	+	63	0
-
-> ~/Dropbox/ReadyForZero/debtapp/.chef/plugins/knife/rfz-ssh.rb
-	"	19	0
-
-> ~/Dropbox/ReadyForZero/debtapp/config/chef-repo/cookbooks/rfz/libraries/dir.rb
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/daemons/build_datalytics_files.clj
-	"	15	0
-
-> ~/Dropbox/ReadyForZero/debtapp/.gitignore
-	"	1	0
-
-> /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/knife-edit-763346323391743.js
-	"	19	64
-	^	19	65
-	.	30	0
-	+	17	49
-	+	19	64
-	+	30	0
-
-> /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/knife-edit-649172123697277.js
-	"	5	0
-
-> /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/knife-edit-428727988960595.js
-	"	14	64
-	^	14	65
-	.	30	0
-	+	16	49
-	+	14	64
-	+	30	0
-	+	30	0
-
-> /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/knife-edit-386983389474272.js
-	"	19	64
-	^	19	65
-	.	30	0
-	+	17	49
-	+	19	64
-	+	30	0
-	+	30	0
-
-> ~/.chef/knife.rb
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/analysis/billpay_flow.clj
-	"	62	0
-	^	4	35
-	.	4	34
-	+	16	16
-	+	16	16
-	+	16	14
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	12	0
-	+	14	0
-	+	22	34
-	+	42	25
-	+	12	0
-	+	17	31
-	+	47	33
-	+	26	24
-	+	27	28
-	+	50	37
-	+	51	7
-	+	50	7
-	+	48	27
-	+	47	60
-	+	48	26
-	+	50	7
-	+	34	37
-	+	35	24
-	+	22	2
-	+	26	0
-	+	26	31
-	+	49	12
-	+	26	0
-	+	51	7
-	+	50	36
-	+	55	23
-	+	75	0
-	+	53	0
-	+	55	19
-	+	75	23
-	+	55	27
-	+	75	21
-	+	55	32
-	+	75	0
-	+	56	40
+	+	79	0
+	+	79	0
+	+	79	0
 	+	60	33
-	+	62	24
-	+	75	0
-	+	51	31
-	+	52	23
-	+	75	3
-	+	62	23
-	+	75	0
-	+	63	27
-	+	52	0
-	+	51	32
-	+	65	49
-	+	64	15
-	+	65	61
-	+	62	23
-	+	62	0
-	+	65	81
-	+	55	37
-	+	57	69
-	+	59	29
-	+	65	100
-	+	72	24
-	+	73	24
-	+	74	20
-	+	65	81
-	+	57	47
-	+	56	31
-	+	57	39
-	+	58	0
-	+	57	35
-	+	3	27
-	+	46	45
-	+	41	2
-	+	42	0
-	+	51	35
-	+	68	5
-	+	65	31
-	+	68	9
-	+	65	22
+	+	62	27
+	+	64	45
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	79	0
+	+	66	46
+	+	79	0
 	+	68	0
-	+	65	57
-	+	65	53
-	+	66	0
-	+	67	39
-	+	68	17
-	+	69	37
-	+	57	36
-	+	22	0
-	+	65	52
-	+	92	28
-	+	92	19
-	+	5	41
-	+	14	0
-	+	92	0
+	+	79	0
+	+	70	0
+	+	79	0
+	+	72	0
+	+	79	0
+	+	74	0
+	+	76	30
+	+	78	0
+
+> ~/debtapp/app/test/app/test/billpay/rpps/pattern.clj
+	"	11	20
+	^	13	39
+	.	30	38
+	+	4	27
 	+	5	0
-	+	4	34
-	a	22	3
+	+	30	38
+	+	5	0
+	+	9	0
+	+	8	0
+	+	9	0
+	+	11	20
+	+	13	38
+	+	30	38
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/server.clj
-	"	160	4
-	^	145	19
-	.	145	18
-	+	32	47
-	+	135	38
-	+	136	18
-	+	33	43
-	+	138	2
-	+	139	2
-	+	29	46
+> ~/debtapp/app/src/app/post_commit/commits.clj
+	"	15	16
+	^	15	17
+	.	15	16
+	+	1	27
+	+	2	41
+	+	15	30
+	+	16	3
+	+	24	19
+	+	5	27
+	+	7	12
+	+	3	31
+	+	7	0
+	+	16	3
+	+	6	34
+	+	16	3
+	+	2	30
+	+	16	24
+	+	17	4
+	+	16	8
+	+	17	53
+	+	25	30
+	+	26	9
+	+	19	30
+	+	20	30
+	+	21	32
+	+	22	55
+	+	26	33
+	+	27	0
+	+	28	23
+	+	29	30
+	+	30	28
+	+	31	10
+	+	8	13
+	+	10	29
+	+	9	37
+	+	10	44
+	+	12	46
+	+	10	9
+	+	13	30
+	+	10	31
+	+	12	0
+	+	25	0
+	+	21	18
+	+	17	47
+	+	15	16
+
+> ~/debtapp/app/src/app/datalytics.clj
+	"	21	0
+	.	62	0
+	+	32	0
+	+	28	63
+	+	28	53
+	+	28	79
+	+	30	43
+	+	30	75
+	+	32	0
+	+	29	33
+	+	30	0
+	+	31	39
+	+	31	0
+	+	30	0
+	+	31	0
+	+	37	8
+	+	12	49
+	+	37	0
+	+	35	0
+	+	61	32
+	+	19	21
+	+	12	0
+	+	19	33
+	+	17	54
+	+	18	0
+	+	20	0
+	+	13	0
+	+	12	42
+	+	26	46
+	+	28	53
+	+	47	31
+	+	66	24
+	+	60	52
+	+	63	0
+	+	61	0
+	+	53	49
+	+	54	49
+	+	60	33
+	+	60	0
+	+	66	28
+	+	53	33
+	+	54	33
+	+	47	15
+	+	64	27
+	+	63	55
+	+	74	27
+	+	70	55
+	+	47	0
+	+	12	0
+	+	10	18
+	+	40	16
+	+	43	29
+	+	47	28
+	+	56	29
+	+	11	0
+	+	10	18
+	+	11	35
+	+	12	44
+	+	13	51
+	+	14	0
+	+	11	0
+	+	64	27
+	+	63	55
+	+	67	31
+	+	47	31
+	+	47	6
+	+	47	2
+	+	47	33
+	+	47	0
+	+	47	0
+	+	62	8
+	+	62	0
+	+	67	37
+	+	15	0
+	+	16	0
+	+	16	0
+	+	62	0
+	+	63	18
+	+	67	37
+	+	66	32
+	+	67	32
+	+	65	27
+	+	46	25
+	+	47	9
+	+	47	0
+	+	65	27
+	+	67	32
+	+	62	0
+	+	62	107
+	+	63	0
+	+	62	0
+	+	64	0
+	+	62	0
+
+> ~/debtapp/app/src/app/datalytics/mongo.clj
+	"	9	2
+
+> ~/debtapp/app/src/app/post_commit/core.clj
+	"	16	44
+	^	17	45
+	.	17	43
+	+	10	0
+	+	10	0
+	+	10	98
+	+	10	0
+	+	10	69
+	+	10	5
+	+	10	60
+	+	10	5
+	+	10	78
+	+	10	31
+	+	10	54
+	+	10	36
+	+	10	39
+	+	10	4
+	+	10	2
+	+	10	2
+	+	10	4
+	+	10	0
+	+	10	29
+	+	10	46
+	+	10	0
+	+	10	0
+	+	1	24
+	+	39	0
+	+	25	18
+	+	39	0
+	+	26	6
+	+	5	37
+	+	7	48
+	+	5	47
+	+	26	8
+	+	9	33
+	+	26	32
+	+	27	9
+	+	13	26
+	+	14	0
+	+	27	19
+	+	28	26
+	+	39	2
+	+	29	16
+	+	39	2
+	+	10	7
+	+	9	36
+	+	11	68
+	+	12	0
+	+	39	0
+	+	36	0
+	+	29	16
+	+	36	25
+	+	37	13
+	+	38	27
+	+	14	24
+	+	14	32
+	+	15	27
+	+	15	22
+	+	14	5
+	+	15	19
+	+	15	39
+	+	14	14
+	+	15	14
+	+	15	53
+	+	16	38
+	+	23	59
+	+	16	46
+	+	18	60
+	+	23	52
+	+	8	40
+	+	16	79
 	+	31	31
-	+	35	31
-	+	141	5
-	+	144	37
-	+	145	18
+	+	32	25
+	+	33	16
+	+	34	0
+	+	9	0
+	+	8	33
+	+	33	37
+	+	27	15
+	+	8	0
+	+	33	34
+	+	34	26
+	+	3	0
+	+	2	58
+	+	18	87
+	+	6	11
+	+	5	38
+	+	15	0
+	+	14	19
+	+	15	18
+	+	14	56
+	+	16	0
+	+	15	41
+	+	18	56
+	+	19	54
+	+	20	67
+	+	21	38
+	+	22	39
+	+	23	52
+	+	25	0
+	+	24	0
+	+	23	44
+	+	17	43
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/util/functional.clj
+> ~/debtapp/app/src/app/daemon.clj
+	"	39	2
+
+> ~/debtapp/app/src/app/datalytics/file_io.clj
+	"	228	6
+
+> ~/debtapp/app/src/app/util/time.clj
 	"	1	0
+	.	427	0
+	+	427	0
+	e	1	13
+
+> ~/debtapp/app/vimclojure_buffer_000013
+	"	14	26
+	^	14	26
+	.	14	26
+	+	2	0
+	+	3	76
+	+	15	0
+	+	6	36
+	+	15	0
+	+	9	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	11	0
+	+	14	26
+
+> ~/debtapp/app/NERD_tree_1
+	"	19	6
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/debtapp/app/src/app/endpoints/dev.clj
+	"	1	0
+
+> ~/debtapp/app/src/app/endpoints/util.clj
+	"	6	0
+
+> ~/debtapp/app/src/app/endpoints/web2.clj
+	"	262	14
+
+> ~/debtapp/app/src/app/views/external.clj
+	"	547	31
+	^	547	32
+	.	547	31
+	+	548	56
+	+	549	0
+	+	13	48
+	+	549	37
+	+	547	31
+
+> ~/debtapp/config/chef-repo/cookbooks/rfz/recipes/daemons.rb
+	"	8	0
+
+> ~/debtapp/app/src/app/m2/partner.clj
+	"	1	0
+	^	188	36
+	.	188	35
+	+	211	77
+	+	213	73
+	+	215	84
+	+	217	78
+	+	223	94
+	+	192	24
+	+	194	39
+	+	195	0
+	+	183	40
+	+	190	8
+	+	192	8
+	+	193	8
+	+	194	8
+	+	189	38
+	+	184	2
+	+	190	8
+	+	192	8
+	+	193	8
+	+	190	8
+	+	191	0
+	+	190	32
+	+	191	39
+	+	190	23
+	+	182	55
+	+	188	35
+
+> ~/debtapp/app/src/app/m2/user.clj
+	"	16	1
+
+> ~/debtapp/app/vimclojure_buffer_000017
+	"	7	13
+	^	7	14
+	.	7	0
+	+	2	0
+	+	3	46
+	+	5	46
+	+	7	0
+
+> ~/debtapp/app/src/app/views/partners.clj
+	"	1	1
+	^	1	1
+	.	1	1
+	+	67	46
+	+	1	1
+
+> ~/debtapp/app/src/app/views/common.clj
+	"	156	27
+
+> ~/debtapp/app/src/app/models/javascript.clj
+	"	44	19
+
+> ~/debtapp/var/service-prod.json
+	"	33	3
+	^	33	4
+	.	33	3
+	+	23	0
+	+	23	0
+	+	31	16
+	+	32	50
+	+	33	3
+
+> ~/debtapp/app/src/app/util/email.clj
+	"	52	0
+	^	69	31
+	.	69	30
+	+	62	16
+	+	63	79
+	+	65	5
+	+	66	8
+	+	66	8
+	+	66	31
+	+	66	30
+	+	9	0
+	+	16	36
+	+	63	83
+	+	65	20
+	+	73	0
+	+	66	35
+	+	67	41
+	+	67	36
+	+	67	23
+	+	67	84
+	+	67	40
+	+	67	24
+	+	67	55
+	+	55	34
+	+	56	48
+	+	57	45
+	+	58	36
+	+	61	0
+	+	59	13
+	+	57	0
+	+	56	14
+	+	57	18
+	+	56	15
+	+	58	0
+	+	57	32
+	+	59	41
+	+	73	0
+	+	67	47
+	+	68	76
+	+	70	71
+	+	70	71
+	+	71	13
+	+	72	27
+	+	64	67
+	+	59	52
+	+	60	29
+	+	69	70
+	+	68	78
+	+	70	82
+	+	72	37
+	+	69	30
+
+> ~/debtapp/app/src/app/analysis/citi.clj
+	"	755	43
+	^	806	0
+	.	8	0
+	+	266	0
+	+	256	1
+	+	257	0
+	+	265	69
+	+	266	0
+	+	258	31
+	+	260	56
+	+	258	40
+	+	265	68
+	+	265	0
+	+	263	23
+	+	267	0
+	+	263	19
+	+	264	0
+	+	263	42
+	+	264	42
+	+	281	0
+	+	265	68
+	+	262	28
+	+	258	31
+	+	260	12
+	+	263	12
+	+	264	12
+	+	265	12
+	+	262	44
+	+	265	63
+	+	262	41
+	+	263	12
+	+	264	12
+	+	260	12
+	+	258	51
+	+	257	9
+	+	258	17
+	+	266	28
+	+	266	0
+	+	257	0
+	+	723	12
+	+	701	32
+	+	702	3
+	+	5	41
+	+	702	80
+	+	703	86
+	+	712	0
+	+	702	110
+	+	703	56
+	+	712	11
+	+	3	40
+	+	712	33
+	+	708	39
+	+	704	36
+	+	707	37
+	+	708	81
+	+	709	95
+	+	709	93
+	+	710	81
+	+	711	91
+	+	712	56
+	+	713	54
+	+	714	55
+	+	715	52
+	+	712	16
+	+	713	0
+	+	717	36
+	+	718	13
+	+	719	109
+	+	689	0
+	+	688	0
+	+	700	0
+	+	695	9
+	+	699	17
+	+	702	53
+	+	703	57
+	+	699	20
+	+	717	22
+	+	723	0
+	+	722	26
+	+	693	11
+	+	699	9
+	+	702	58
+	+	703	62
+	+	716	45
+	+	748	69
+	+	774	0
+	+	774	0
+	+	767	0
+	+	767	24
+	+	767	20
+	+	767	0
+	+	768	5
+	+	768	0
+	+	824	0
+	+	774	0
+	+	806	0
+	+	824	0
+	+	774	0
+	+	836	0
+	+	5	0
+	+	7	0
+	+	6	12
+	+	8	0
+
+> ~/debtapp/app/src/app/models/email.clj
+	"	1	0
+
+> ~/debtapp/app/resources/server/templates/email/test_results.mustache
+	"	4	5
+	^	4	6
+	.	4	5
+	+	1	43
+	+	3	11
+	+	2	4
+	+	4	5
+
+> ~/debtapp/app/resources/server/templates/email/completedreferral.mustache
+	"	1	0
+
+> ~/debtapp/app/vimclojure_buffer_000019
+	"	3	22
+	^	3	23
+	.	2	0
+	+	2	0
+
+> ~/debtapp/app/vimclojure_buffer_000020
+	"	3	23
+	^	3	24
+	.	3	24
+	+	4	0
+	+	5	7
+	+	2	0
+	+	3	24
+
+> ~/debtapp/app/vimclojure_buffer_000022
+	"	9	25
+	^	9	26
+	.	9	25
+	+	2	0
+	+	3	76
+	+	9	25
+
+> ~/debtapp/app/vimclojure_buffer_000024
+	"	47	22
+	^	47	23
+	.	47	0
+	+	2	0
+	+	3	76
+	+	48	0
+	+	14	76
+	+	48	0
+	+	25	78
+	+	48	0
+	+	36	76
+	+	47	0
+
+> ~/debtapp/app/test/app/test/core/tasks.clj
+	"	23	9
+
+> ~/debtapp/app/src/app/core/lang.clj
+	"	1	0
+
+> ~/debtapp/app/vimclojure_buffer_000001
+	"	89	22
+	^	89	23
+	.	89	0
+	+	90	0
+	+	91	24
+	+	268	14
+	+	2	0
+	+	3	95
+	+	90	0
+	+	5	0
+	+	90	0
+	+	7	0
+	+	9	41
+	+	90	0
+	+	11	40
+	+	90	0
+	+	90	0
+	+	90	0
+	+	13	0
+	+	15	23
+	+	17	32
+	+	19	31
+	+	90	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	21	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	23	0
+	+	90	0
+	+	90	0
+	+	25	0
+	+	27	31
+	+	29	23
+	+	90	0
+	+	90	0
+	+	90	0
+	+	31	0
+	+	33	23
+	+	35	41
+	+	37	23
+	+	39	51
+	+	41	23
+	+	90	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	43	0
+	+	45	23
+	+	90	0
+	+	90	0
+	+	47	0
+	+	49	23
+	+	90	0
+	+	90	0
+	+	51	0
+	+	53	23
+	+	90	0
+	+	90	0
+	+	55	0
+	+	90	0
+	+	90	0
+	+	57	0
+	+	59	23
+	+	90	0
+	+	90	0
+	+	61	0
+	+	63	23
+	+	90	0
+	+	90	0
+	+	65	0
+	+	67	23
+	+	90	0
+	+	90	0
+	+	69	0
+	+	71	39
+	+	90	0
+	+	90	0
+	+	73	0
+	+	90	0
+	+	75	0
+	+	77	39
+	+	90	0
+	+	90	0
+	+	79	0
+	+	79	30
+	+	81	40
+	+	90	0
+	+	90	0
+	+	83	0
+	+	85	30
+	+	90	0
+	+	90	0
+	+	90	0
+	+	87	47
+	+	89	0
+
+> ~/debtapp/app/vimclojure_buffer_000021
+	"	63	82643
+	^	64	0
+	.	63	82647
+	+	2	0
+	+	3	39
+	+	4	16
+	+	6	30
+	+	8	83
+	+	10	30
+	+	12	45
+	+	66	0
+	+	66	0
+	+	66	0
+	+	14	83
+	+	66	0
+	+	66	0
+	+	16	0
+	+	18	38
+	+	20	50
+	+	22	34
+	+	24	34
+	+	26	62
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	66	0
+	+	28	83
+	+	29	32
+	+	66	0
+	+	31	0
+	+	33	26
+	+	32	31
+	+	35	47
+	+	37	46
+	+	55	36
+	+	56	40
+	+	57	45
+	+	59	29
+	+	61	23
+	+	65	0
+	+	61	46
+	+	62	82661
+	+	63	82647
+
+> ~/debtapp/app/project.clj
+	"	33	50
+	.	33	0
+	+	23	0
+	+	6	0
+	+	9	0
+	+	9	0
+	+	5	49
+	+	7	26
+	+	40	0
+	+	33	0
+
+> ~/debtapp/app/vimclojure_buffer_000026
+	"	3	6
+	^	3	7
+	.	2	0
+	+	2	0
+
+> ~/debtapp/app/vimclojure_buffer_000028
+	"	3	8
+	^	3	9
+	.	3	8
+	+	2	0
+	+	3	8
+
+> /rfz/ec2-user/test/debtapp/app/project.clj
+	"	35	43
+	^	35	50
+	.	35	43
+	+	41	0
+	+	35	43
+
+> /rfz/ec2-user/test/debtapp/ControlP
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /rfz/ec2-user/test/debtapp/app/test/app/test/datalytics/record_retriever.clj
+	"	46	6
+	.	46	0
+	+	46	0
+
+> ~/.vimrc
+	"	401	8
+	^	604	17
+	.	604	18
+	+	403	0
+	+	604	18
+
+> ~/.vimrc.local
+	"	16	40
+	^	16	41
+	.	16	40
+	+	1	44
+	+	4	0
+	+	1	45
+	+	2	28
+	+	4	0
+	+	4	25
+	+	4	0
+	+	3	45
+	+	13	28
+	+	18	104
+	+	18	1
+	+	85	73
+	+	86	19
+	+	90	62
+	+	92	2
+	+	96	70
+	+	97	19
+	+	99	2
+	+	100	52
+	+	102	2
+	+	106	35
+	+	107	51
+	+	88	0
+	+	87	2
+	+	88	0
+	+	89	0
+	+	90	0
+	+	91	0
+	+	92	0
+	+	93	0
+	+	94	0
+	+	95	0
+	+	96	0
+	+	96	68
+	+	97	1
+	+	98	0
+	+	99	0
+	+	100	0
+	+	101	0
+	+	102	0
+	+	103	0
+	+	104	0
+	+	105	0
+	+	106	0
+	+	107	47
+	+	109	32
+	+	109	56
+	+	109	83
+	+	110	20
+	+	109	1
+	+	109	3
+	+	109	22
+	+	110	8
+	+	109	24
+	+	109	43
+	+	109	2
+	+	110	4
+	+	109	53
+	+	109	74
+	+	109	12
+	+	109	31
+	+	109	0
+	+	109	24
+	+	109	43
+	+	109	24
+	+	109	43
+	+	109	24
+	+	109	46
+	+	109	12
+	+	109	31
+	+	109	16
+	+	109	35
+	+	109	3
+	+	109	30
+	+	109	3
+	+	109	31
+	+	109	15
+	+	109	19
+	+	109	7
+	+	109	26
+	+	109	16
+	+	109	19
+	+	109	16
+	+	109	19
+	+	110	3
+	+	109	3
+	+	109	63
+	+	110	26
+	+	109	0
+	+	110	1
+	+	109	1
+	+	110	1
+	+	109	0
+	+	110	43
+	+	111	0
+	+	14	0
+	+	15	0
+	+	16	40
+
+> ~/debtapp/app/vimclojure_buffer_000003
+	"	2	7
+	^	2	8
+	.	2	8
+	+	2	0
+	+	2	8
+
+> ~/debtapp/app/src/app/billpay/rpps/confirmed.clj
+	"	13	15
+	^	13	16
+	.	13	15
+	+	1	25
+	+	43	47
+	+	1	31
+	+	1	26
+	+	1	8
+	+	1	25
+	+	1	22
+	+	1	18
+	+	1	24
+	+	1	20
+	+	44	38
+	+	41	23
+	+	39	0
+	+	1	50
+	+	38	85
+	+	1	0
+	+	16	28
+	+	12	0
+	+	8	15
+	+	17	0
+	+	9	3
+	+	9	0
+	+	14	0
+	+	14	0
+	+	10	0
+	+	17	0
+	+	14	0
+	+	11	0
+	+	14	0
+	+	17	0
+	+	17	15
+	+	17	0
+	+	15	0
+	+	13	15
+
+> ~/debtapp/app/src/app/server.clj
+	"	1	0
+	^	20	50
+	.	20	48
+	+	148	0
+	+	145	34
+	+	146	14
+	+	20	48
+
+> ~/debtapp/app/vimclojure_buffer_000002
+	"	180	16
+	^	180	17
+	.	180	0
+	+	191	0
+	+	192	84
+	+	194	23
+	+	209	0
+	+	209	0
+	+	196	0
+	+	198	23
+	+	200	43
+	+	209	0
+	+	209	0
+	+	209	0
+	+	202	0
+	+	209	0
+	+	209	0
+	+	204	0
+	+	209	0
+	+	206	69
+	+	208	0
+	+	181	0
+	+	182	79
+	+	191	0
+	+	184	0
+	+	191	0
+	+	186	0
+	+	186	29
+	+	188	48
+	+	190	0
+	+	2	0
+	+	3	28
+	+	5	39
+	+	168	47
+	+	170	68
+	+	172	40
+	+	174	40
+	+	180	0
+
+> ~/debtapp/app/lib/httpcore-4.2.2.jar
+	"	220	0
+	.	5	0
+	+	5	0
+
+> ~/debtapp/app/vimclojure_buffer_000005
+	"	19	22
+	^	19	23
+	.	19	0
+	+	2	0
+	+	3	71
+	+	5	36
+	+	7	23
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	9	23
+	+	11	48
+	+	13	29
+	+	15	42
+	+	17	25
+	+	19	0
+
+> ~/debtapp/app/vimclojure_buffer_000008
+	"	7	23
+	^	7	1
+	.	7	0
+	+	2	0
+	+	3	84
+	+	5	42
+	+	7	0
+
+> ~/debtapp/app/src/app/post_commit.clj
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> ~/debtapp/app/src/app/datalytics/record_retriever.clj
+	"	31	16
+	^	30	54
+	.	30	53
+	+	50	27
+	+	51	30
+	+	53	13
+	+	51	33
+	+	53	13
+	+	48	0
+	+	34	32
+	+	9	35
+	+	11	0
+	+	45	0
+	+	42	56
+	+	39	54
+	+	3	0
+	+	1	35
+	+	11	35
+	+	2	0
+	+	4	34
+	+	37	22
+	+	41	33
+	+	42	54
+	+	30	32
+	+	30	15
+	+	30	32
+	+	30	7
+	+	30	0
+	+	8	33
+	+	30	25
+	+	30	7
+	+	30	25
+	+	30	7
+	+	30	25
+	+	30	7
+	+	30	25
+	+	30	8
+	+	30	7
+	+	30	8
+	+	30	25
+	+	31	0
+	+	30	40
+	+	32	42
+	+	18	34
+	+	19	40
+	+	18	44
+	+	19	48
+	+	20	31
+	+	21	41
+	+	18	18
+	+	23	41
+	+	25	6
+	+	18	46
+	+	25	45
+	+	26	13
+	+	42	9
+	+	44	8
+	+	42	43
+	+	44	28
+	+	28	37
+	+	19	36
+	+	32	43
+	+	30	59
+	+	32	48
+	+	44	45
+	+	26	13
+	+	18	27
+	+	18	0
+	+	18	0
+	+	25	35
+	+	28	50
+	+	42	11
+	+	43	9
+	+	42	42
+	+	43	10
+	+	44	30
+	+	28	25
+	+	30	35
+	+	32	43
+	+	30	0
+	+	31	2
+	+	32	2
+	+	19	50
+	+	21	43
+	+	51	0
+	+	19	27
+	+	29	34
+	+	30	21
+	+	42	0
+	+	30	0
+	+	19	0
+	+	24	27
+	+	13	0
+	+	14	2
+	+	15	2
+	+	16	2
+	+	13	0
+	+	34	71
+	+	44	43
+	+	28	38
+	+	30	45
+	+	52	31
+	+	30	53
+
+> ~/debtapp/app/test/app/test/datalytics/record_retriever.clj
+	"	57	30
+	^	57	26
+	.	57	25
+	+	46	23
+	+	57	25
+
+> ~/debtapp/app/vimclojure_buffer_000004
+	"	5	22
+	^	5	23
+	.	5	0
+	+	2	0
+	+	3	85
+	+	5	0
+
+> ~/debtapp/app/leiningen/rfz.clj
+	"	1	0
+
+> ~/debtapp/app/leiningen/vimclojure_buffer_000000
+	"	2	0
 	.	3	0
 	+	3	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/js/models/user.js
-	"	18	0
+> ~/clj-highcharts/src/java/org/one2team/highcharts/server/export/util/SVGRendererInternal.java
+	"	140	19
+	.	20	0
+	+	20	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/models/user.clj
-	"	861	1
+> ~/clj-highcharts/src/ControlP
+	"	10	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/core/tasks.clj
-	"	166	3
+> ~/clj-highcharts/src/NERD_tree_1
+	"	37	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/util/time.clj
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/datalytics/mongo.clj
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/project.clj
-	"	1	0
-	^	26	67
-	.	26	66
-	+	26	66
-
-> /rfz/analytics/payments.json
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/views/partners.clj
+> /private/var/folders/f6/207p00xs3nlbsq2vnxt8z1fh0000gp/T/bash-fc-1352408442
 	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/endpoints/datalytics.clj
-	"	11	0
-	.	11	0
-	+	11	0
+> ~/debtapp/app/src/app/billpay/routing/core.clj
+	"	6	11
+	^	5	12
+	.	6	11
+	+	17	0
+	+	13	28
+	+	17	20
+	+	10	34
+	+	11	6
+	+	10	26
+	+	11	37
+	+	10	36
+	+	17	44
+	+	18	21
+	+	19	18
+	+	17	33
+	+	21	29
+	+	21	0
+	+	10	10
+	+	13	11
+	+	17	24
+	+	21	39
+	+	21	18
+	+	35	37
+	+	40	33
+	+	41	44
+	+	44	43
+	+	44	0
+	+	35	42
+	+	27	43
+	+	32	31
+	+	33	35
+	+	44	0
+	+	41	45
+	+	42	58
+	+	43	70
+	+	54	0
+	+	45	27
+	+	49	30
+	+	8	38
+	+	49	58
+	+	52	33
+	+	52	20
+	+	52	7
+	+	52	25
+	+	53	42
+	+	50	37
+	+	51	40
+	+	52	8
+	+	53	8
+	+	52	17
+	+	53	24
+	+	58	23
+	+	63	43
+	+	21	2
+	+	21	2
+	+	21	38
+	+	21	0
+	+	24	33
+	+	25	5
+	+	48	0
+	+	46	87
+	+	47	13
+	+	48	11
+	+	49	29
+	+	46	48
+	+	47	43
+	+	31	0
+	+	28	41
+	+	30	39
+	+	39	0
+	+	36	74
+	+	38	18
+	+	39	10
+	+	40	32
+	+	41	43
+	+	38	63
+	+	23	0
+	+	22	48
+	+	16	0
+	+	14	92
+	+	15	38
+	+	82	0
+	+	83	0
+	+	86	0
+	+	9	0
+	+	86	0
+	+	85	0
+	+	84	81
+	+	72	30
+	+	73	0
+	+	81	86
+	+	6	42
+	+	8	15
+	+	46	41
+	+	49	46
+	+	84	20
+	+	72	18
+	+	81	90
+	+	5	0
+	+	7	0
+	+	6	45
+	+	5	12
+	+	6	11
 
-> ~/Dropbox/ReadyForZero/debtapp/app/ControlP
+> ~/debtapp/ControlP
 	"	10	0
 	.	2	0
 	+	1	0
@@ -2079,126 +2534,881 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	11	0
 	+	2	0
 
-> ~/Desktop/new.txt
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	6
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	9
-	+	1	0
-	+	1	0
+> ~/debtapp/vimclojure_buffer_000001
+	"	5	26
+	^	5	27
+	.	5	0
+	+	6	0
+	+	7	7
+	+	2	0
+	+	3	66
+	+	5	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/endpoints/internal/billpay.clj
-	"	82	5
-	.	65	0
-	+	18	25
-	+	16	43
-	+	18	50
-	+	69	35
-	+	70	31
-	+	71	40
-	+	69	40
-	+	71	35
-	+	72	15
-	+	74	30
-	+	11	85
-	+	13	64
-	+	14	89
+> ~/debtapp/app/src/app/billpay/routing/numbers.clj
+	"	5	0
+	^	5	0
+	.	5	0
+	+	760	7
+	+	8	7
+	+	11	0
+	+	8	6
+	+	11	0
+	+	8	7
+	+	293	8
+	+	294	8
+	+	301	8
+	+	304	0
+	+	305	0
+	+	309	0
+	+	361	0
+	+	540	0
+	+	597	0
+	+	682	0
+	+	760	7
+	+	763	0
+	+	1027	12
+	+	1033	1
+	+	1027	6
+	+	8	5
+	+	293	7
+	+	295	7
+	+	297	6
+	+	299	6
+	+	302	6
+	+	306	6
+	+	358	5
+	+	537	5
+	+	620	0
+	+	594	5
+	+	679	5
+	+	760	4
+	+	1029	22
+	+	1031	22
+	+	1032	24
+	+	1033	0
+	+	8	10
+	+	9	0
+	+	10	3
+	+	11	0
+	+	292	11
+	+	293	3
+	+	294	17
+	+	295	11
+	+	296	3
+	+	295	3
+	+	296	17
+	+	297	10
+	+	298	17
+	+	299	10
+	+	300	0
+	+	301	17
+	+	302	10
+	+	303	0
+	+	304	4
+	+	305	17
+	+	306	10
+	+	307	0
+	+	308	5
+	+	357	17
+	+	358	9
+	+	359	0
+	+	360	4
+	+	536	16
+	+	537	10
+	+	538	0
+	+	539	5
+	+	593	17
+	+	594	9
+	+	595	0
+	+	596	5
+	+	678	17
+	+	679	9
+	+	680	0
+	+	681	5
+	+	759	17
+	+	760	7
+	+	761	0
+	+	762	5
+	+	1026	17
+	+	1027	11
+	+	1028	6
+	+	1029	17
+	+	1030	0
+	+	1031	0
+	+	1032	16
+	+	6	54
+	+	5	0
+
+> ~/debtapp/app/src/app/billpay/routing/csid.clj
+	"	20	3
+	^	4	29
+	.	21	0
+	+	1	29
+	+	6	13
+	+	21	0
+	+	7	16
+	+	8	17
+	+	9	17
+	+	10	16
+	+	11	16
+	+	12	16
+	+	13	16
+	+	14	16
+	+	15	16
+	+	16	15
+	+	17	15
+	+	18	13
+	+	19	17
+	+	20	23
+	+	5	0
+	+	3	0
+	+	2	38
+	+	5	0
+	+	21	32
+	+	21	3
+	+	21	32
+	+	5	51
+	+	21	29
+	+	21	34
+	+	5	54
+	+	5	37
+	+	21	60
+	+	21	15
+	+	21	25
+	+	21	6
+	+	21	6
+	+	21	6
+	+	5	33
+	+	21	26
+	+	5	0
+	+	21	0
+	+	4	0
+	+	21	0
+
+> ~/debtapp/vimclojure_buffer_000003
+	"	41	27
+	^	41	28
+	.	41	27
+	+	2	0
+	+	3	110
+	+	42	0
+	+	5	0
+	+	7	64
+	+	9	51
+	+	11	50
+	+	29	53
+	+	42	0
+	+	31	0
+	+	33	40
+	+	42	0
+	+	35	44
+	+	42	0
+	+	42	0
+	+	42	0
+	+	37	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	39	0
+	+	41	27
+
+> ~/debtapp/vimclojure_buffer_000008
+	"	5	26
+	^	5	27
+	.	5	0
+	+	2	0
+	+	5	0
+
+> ~/debtapp/vimclojure_buffer_000011
+	"	17	26
+	^	17	27
+	.	17	0
+	+	18	0
+	+	19	30
+	+	21	36
+	+	23	21
+	+	25	27
+	+	27	27
+	+	28	16
+	+	29	0
+	+	2	0
+	+	3	120
+	+	5	38
+	+	7	51
+	+	18	0
+	+	9	53
+	+	11	40
+	+	11	40
+	+	11	46
+	+	18	0
+	+	13	44
+	+	18	0
+	+	15	55
+	+	17	0
+
+> ~/debtapp/vimclojure_buffer_000012
+	"	17	0
+	^	17	1
+	.	17	0
+	+	18	0
+	+	19	50
+	+	21	22
+	+	23	43
+	+	25	21
+	+	2	0
+	+	3	31
+	+	18	0
+	+	5	0
+	+	7	46
+	+	18	0
+	+	9	55
+	+	18	0
+	+	11	44
+	+	18	0
+	+	18	0
+	+	13	0
+	+	18	0
 	+	15	44
-	+	17	113
-	+	18	98
-	+	72	51
-	+	14	87
-	+	65	27
-	+	65	29
-	+	67	22
-	+	83	10
-	+	65	0
-	+	64	27
-	+	65	27
-	+	65	22
-	+	60	28
-	+	62	36
-	+	65	0
-	+	67	72
-	+	66	0
-	+	65	8
-	+	83	11
-	+	77	50
-	+	67	22
-	+	68	0
-	+	67	0
-	+	68	28
-	+	69	28
-	+	70	27
-	+	71	27
-	+	72	27
-	+	73	27
-	+	74	27
-	+	75	27
-	+	67	20
-	+	68	20
-	+	69	20
-	+	70	20
-	+	71	20
-	+	72	20
-	+	73	20
-	+	74	20
-	+	75	20
-	+	66	51
-	+	67	9
-	+	68	9
-	+	69	9
-	+	70	9
-	+	71	9
-	+	72	9
-	+	73	9
-	+	74	9
-	+	75	47
-	+	76	49
-	+	77	35
-	+	79	54
-	+	81	17
-	+	67	9
-	+	68	9
-	+	69	10
-	+	70	11
-	+	71	12
-	+	72	13
-	+	73	14
-	+	74	15
-	+	75	16
-	+	79	62
-	+	65	0
+	+	17	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/ControlP
-	"	3	0
+> ~/debtapp/vimclojure_buffer_000000
+	"	3	53
+	^	5	1
+	.	5	0
+	+	2	0
+	+	3	51
+	+	5	0
+
+> ~/debtapp/vimclojure_buffer_000002
+	"	11	6
+	^	11	7
+	.	11	0
+	+	2	0
+	+	3	31
+	+	5	10
+	+	7	14
+	+	9	51
+	+	11	0
+
+> ~/debtapp/vimclojure_buffer_000004
+	"	5	6
+	^	5	7
+	.	5	0
+	+	2	0
+	+	5	0
+
+> ~/debtapp/vimclojure_buffer_000005
+	"	41	26
+	^	41	27
+	.	41	0
+	+	2	0
+	+	3	56
+	+	42	0
+	+	5	33
+	+	42	0
+	+	7	56
+	+	42	0
+	+	9	0
+	+	42	0
+	+	11	47
+	+	42	0
+	+	13	0
+	+	42	0
+	+	15	43
+	+	17	50
+	+	19	38
+	+	42	0
+	+	21	0
+	+	23	69
+	+	42	0
+	+	25	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	27	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	29	0
+	+	30	9
+	+	42	0
+	+	31	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	33	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	35	0
+	+	42	0
+	+	37	56
+	+	42	0
+	+	39	42
+	+	41	0
+
+> ~/debtapp/app/src/app/analysis/graph.clj
+	"	103	53
+	^	26	19
+	.	26	18
+	+	3	35
+	+	3	39
+	+	3	44
+	+	3	49
+	+	3	49
+	+	3	18
+	+	3	18
+	+	3	18
+	+	3	6
+	+	3	5
+	+	3	5
+	+	3	5
+	+	3	5
+	+	3	5
+	+	3	44
+	+	3	44
+	+	4	0
+	+	3	46
+	+	3	0
+	+	108	0
+	+	106	15
+	+	108	13
+	+	108	46
+	+	114	15
+	+	108	0
+	+	111	29
+	+	114	46
+	+	3	0
+	+	59	6
+	+	15	72
+	+	14	57
+	+	56	24
+	+	55	33
+	+	27	27
+	+	30	24
+	+	31	15
+	+	32	17
+	+	33	14
+	+	32	7
+	+	33	7
+	+	31	21
+	+	32	7
+	+	33	13
+	+	82	35
+	+	86	24
+	+	85	23
+	+	89	17
+	+	6	0
+	+	6	41
+	+	108	33
+	+	5	48
+	+	106	8
+	+	108	0
+	+	114	56
+	+	108	36
+	+	6	0
+	+	5	49
+	+	108	33
+	+	5	0
+	+	43	37
+	+	44	49
+	+	89	16
+	+	37	31
+	+	55	32
+	+	27	0
+	+	23	60
+	+	24	1
+	+	101	20
+	+	102	39
+	+	105	29
+	+	101	0
+	+	108	0
+	+	109	0
+	+	107	0
+	+	109	0
+	+	6	2
+	+	20	0
+	+	8	27
+	+	9	1
+	+	8	1
+	+	29	0
+	+	28	55
+	+	91	15
+	+	93	0
+	+	92	82
+	+	104	0
+	+	103	53
+	+	3	58
+	+	112	0
+	+	119	0
+	+	5	0
+	+	6	0
+	+	3	0
+	+	27	0
+	+	25	0
+	+	34	0
+	+	37	0
+	+	37	0
+	+	117	13
+	+	26	18
+
+> ~/debtapp/app/src/app/datalytics/timeline.clj
+	"	14	0
+	.	72	0
+	+	18	19
+	+	19	12
+	+	57	38
+	+	62	45
+	+	66	55
+	+	62	29
+	+	66	29
+	+	38	36
+	+	37	26
+	+	46	0
+	+	40	25
+	+	41	36
+	+	42	30
+	+	43	27
+	+	44	41
+	+	61	32
+	+	65	34
+	+	64	20
+	+	64	4
+	+	64	16
+	+	64	22
+	+	64	0
+	+	60	0
+	+	28	0
+	+	34	42
+	+	64	0
+	+	57	0
+	+	64	0
+	+	63	8
+	+	67	8
+	+	63	33
+	+	67	33
+	+	63	38
+	+	67	7
+	+	76	56
+	+	77	28
+	+	78	0
+	+	77	31
+	+	76	5
+	+	77	5
+	+	95	0
+	+	83	0
+	+	85	41
+	+	88	28
+	+	91	31
+	+	95	0
+	+	112	0
+	+	73	19
+	+	79	11
+	+	96	11
+	+	107	10
+	+	105	9
+	+	114	7
+	+	46	0
+	+	47	42
+	+	51	5
+	+	47	28
+	+	51	37
+	+	52	8
+	+	53	7
+	+	52	22
+	+	53	37
+	+	54	21
+	+	56	0
+	+	50	0
+	+	48	61
+	+	50	0
+	+	49	47
+	+	54	24
+	+	55	11
+	+	29	34
+	+	30	37
+	+	91	30
+	+	91	18
+	+	91	45
+	+	95	23
+	+	95	14
+	+	23	11
+	+	23	27
+	+	23	17
+	+	44	0
+	+	23	0
+	+	45	21
+	+	23	0
+	+	91	0
+	+	95	0
+	+	91	41
+	+	93	41
+	+	94	50
+	+	69	43
+	+	70	65
+	+	71	34
+	+	80	23
+	+	81	0
+	+	82	57
+	+	74	23
+	+	76	57
+	+	68	0
+	+	72	0
+	+	72	0
+
+> ~/debtapp/app/src/app/datalytics/processing.clj
+	"	17	0
+	.	17	0
+	+	64	32
+	+	66	35
+	+	67	16
+	+	68	0
+	+	69	0
+	+	72	13
+	+	73	15
+	+	72	23
+	+	73	26
+	+	74	0
+	+	75	27
+	+	76	30
+	+	77	0
+	+	78	48
+	+	79	51
+	+	80	0
+	+	81	39
+	+	82	42
+	+	83	0
+	+	83	0
+	+	61	0
+	+	13	0
+	+	12	18
+	+	11	0
+	+	13	0
+	+	12	62
+	+	17	14
+	+	17	20
+	+	11	10
+	+	12	10
+	+	11	4
+	+	12	4
+	+	62	9
+	+	8	34
+	+	62	45
+	+	61	0
+	+	62	36
+	+	34	34
+	+	34	65
+	+	39	35
+	+	39	0
+	+	42	42
+	+	42	31
+	+	53	25
+	+	53	25
+	+	63	21
+	+	53	54
+	+	42	54
+	+	39	35
+	+	34	66
+	+	34	40
+	+	34	50
+	+	36	0
+	+	44	0
+	+	42	40
+	+	43	42
+	+	44	0
+	+	54	0
+	+	49	15
+	+	34	16
+	+	11	12
+	+	33	35
+	+	41	37
+	+	48	47
+	+	55	43
+	+	60	38
+	+	17	24
+	+	27	21
+	+	24	22
+	+	17	40
+	+	24	38
+	+	27	39
+	+	30	46
+	+	31	26
+	+	30	53
+	+	31	48
+	+	34	42
+	+	42	42
+	+	50	33
+	+	64	33
+	+	17	40
+	+	23	46
+	+	24	38
+	+	25	44
+	+	27	35
+	+	28	42
+	+	27	23
+	+	31	33
+	+	38	29
+	+	7	42
+	+	6	40
+	+	26	20
+	+	27	0
+	+	26	29
+	+	15	26
+	+	17	45
+	+	17	68
+	+	16	25
+	+	17	0
+	+	17	0
+	n	73	43
+
+> ~/debtapp/app/src/app/analysis/users.clj
+	"	39	4
+	^	32	55
+	.	40	0
+	+	1	23
+	+	2	24
+	+	2	2
+	+	2	55
+	+	2	0
+	+	2	8
+	+	2	35
+	+	2	14
+	+	2	29
+	+	2	44
+	+	2	35
+	+	2	27
+	+	2	14
+	+	2	36
+	+	2	53
+	+	2	40
+	+	2	44
+	+	2	0
+	+	2	27
+	+	2	7
+	+	2	7
+	+	2	7
+	+	2	36
+	+	2	50
+	+	2	24
+	+	2	3
+	+	2	48
+	+	2	30
+	+	2	6
+	+	2	21
+	+	2	0
+	+	2	65
+	+	2	40
+	+	2	3
+	+	2	37
+	+	2	30
+	+	2	40
+	+	2	0
+	+	2	12
+	+	2	50
+	+	2	0
+	+	4	0
+	+	35	0
+	+	16	38
+	+	19	0
+	+	18	28
+	+	19	56
+	+	20	0
+	+	20	10
+	+	17	36
+	+	20	23
+	+	21	37
+	+	27	44
+	+	34	6
+	+	23	21
+	+	24	3
+	+	23	20
+	+	24	6
+	+	23	37
+	+	24	14
+	+	26	12
+	+	24	5
+	+	25	0
+	+	26	16
+	+	34	58
+	+	26	6
+	+	25	19
+	+	26	0
+	+	28	24
+	+	2	50
+	+	3	34
+	+	28	67
+	+	32	23
+	+	27	53
+	+	12	0
+	+	12	0
+	+	28	46
+	+	31	49
+	+	30	34
+	+	32	23
+	+	29	0
+	+	32	55
+	+	33	53
+	+	32	16
+	+	33	72
+	+	34	64
+	+	32	31
+	+	5	0
+	+	20	0
+	+	40	0
+
+> ~/debtapp/vimclojure_buffer_000014
+	"	4	0
+	^	5	27
+	.	5	27
+	+	2	0
+	+	3	65
+	+	5	27
+
+> ~/debtapp/2
+	"	1	0
+
+> ~/debtapp/:q
+	"	1	0
+
+> ~/debtapp/app/src/app/analysis/util.clj
+	"	152	7
+
+> ~/.spf13-vim-3/.vim/bundle/VimClojure/plugin/clojure.vim
+	"	59	0
+	.	59	0
+	+	60	0
+	+	60	21
+	+	60	0
+	+	60	0
+	+	60	0
+	+	61	0
+	+	60	26
+	+	61	4
+	+	61	0
+	+	59	0
+
+> ~/.spf13-vim-3/.vim/bundle/VimClojure/ftplugin/clojure.vim
+	"	1	0
+
+> ~/.spf13-vim-3/.vim/bundle/VimClojure/autoload/vimclojure.vim
+	"	812	28
+
+> ~/command-line-args/src/command_line_args/core.clj
+	"	3	31
+	^	3	32
+	.	3	31
+	+	3	31
+
+> ~/command-line-args/ControlP
+	"	2	0
 	.	2	0
 	+	1	0
 	+	1	0
@@ -2238,32 +3448,76 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
+	+	2	0
+
+> ~/command-line-args/vimclojure_buffer_000000
+	"	3	28
+	^	3	29
+	.	3	28
+	+	33	0
+	+	34	29
+	+	35	32
+	+	37	0
+	+	23	0
+	+	17	0
+	+	18	38
+	+	20	25
+	+	13	0
+	+	14	35
+	+	16	0
+	+	2	0
+	+	3	25
+	+	4	0
+	+	7	0
+	+	11	0
+	+	3	28
+
+> ~/batik/src/clj_highcharts/core.clj
+	"	19	37
+	^	19	37
+	.	19	34
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	1	23
+	+	22	8
+	+	55	51
+	+	4	0
+	+	1	23
+	+	6	0
+	+	7	74
+	+	17	19
+	+	11	25
+	+	12	60
+	+	17	35
+	+	12	0
+	+	17	42
+	+	17	13
+	+	10	24
+	+	17	27
+	+	12	13
+	+	17	40
+	+	17	0
+	+	10	0
+	+	12	8
+	+	17	0
+	+	13	91
+	+	14	37
+	+	15	14
+	+	18	39
+	+	20	65
+	+	18	0
+	+	18	39
+	+	19	34
+
+> ~/batik/ControlP
+	"	2	0
+	.	2	0
 	+	1	0
 	+	1	0
 	+	1	0
@@ -2301,254 +3555,219 @@ $
 	+	1	0
 	+	2	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/rpps_remap.clj
-	"	13	21
-	^	13	22
-	.	13	21
-	+	1	27
-	+	10	14
-	+	15	17
-	+	16	0
-	+	12	20
-	+	13	27
-	+	13	21
-	+	14	7
-	+	16	27
-	+	17	12
-	+	16	26
-	+	17	13
-	+	1	20
-	+	13	19
-	+	1	0
-	+	7	0
-	+	1	40
-	+	2	74
-	+	2	75
-	+	5	35
-	+	6	0
-	+	13	19
-	+	14	0
-	+	13	21
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/manual.clj
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/templates/settings/readyforzero_account/readyforzero_account_billing.tmpl
-	"	9	2
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/templates/settings/readyforzero_account/readyforzero_account_plus.tmpl
-	"	4	2
-
-> ~/Dropbox/ReadyForZero/debtapp/app/resources/public/js/widgets/billpay/billpay.js
-	"	825	6
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/util/numeric.clj
-	"	1	0
-
-> /usr/share/vim/vim73/doc/help.txt
-	"	69	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/rpps/NERD_tree_2
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/routing-number/parser.clj
-	"	29	7
-	^	25	49
-	.	25	48
-	+	1	35
-	+	4	27
-	+	5	29
-	+	4	25
-	+	5	7
-	+	30	0
-	+	5	22
-	+	6	21
-	+	9	28
-	+	30	0
-	+	11	19
-	+	18	27
-	+	20	22
-	+	29	0
-	+	28	2
-	+	20	20
-	+	20	20
-	+	20	20
-	+	20	20
-	+	27	20
-	+	27	18
-	+	21	23
-	+	27	0
+> ~/batik/vimclojure_buffer_000002
+	"	38	0
+	^	38	1
+	.	38	0
+	+	43	0
+	+	44	65
+	+	45	30
+	+	47	23
+	+	39	0
+	+	42	0
+	+	2	0
+	+	3	35
+	+	5	38
+	+	7	40
+	+	9	54
+	+	39	0
+	+	12	58
+	+	14	39
+	+	16	38
+	+	39	0
+	+	18	29
+	+	20	67
+	+	39	0
+	+	39	0
+	+	22	0
+	+	24	23
+	+	39	0
+	+	39	0
+	+	39	0
 	+	26	0
-	+	22	19
-	+	23	35
-	+	25	48
+	+	28	51
+	+	30	28
+	+	32	23
+	+	34	32
+	+	36	30
+	+	39	0
+	+	39	0
+	+	39	0
+	+	39	0
+	+	38	0
 
-> app/src/app/billpay/routing-number/parser.clj
-	"	1	0
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/routing/parser.clj
-	"	55	15
-	^	5	80
-	.	55	15
-	+	1	3
-	+	34	30
-	+	36	24
-	+	37	38
-	+	58	0
-	+	37	20
-	+	34	52
-	+	37	33
-	+	38	14
-	+	8	36
-	+	38	32
-	+	41	29
-	+	44	9
-	+	41	25
-	+	44	40
-	+	44	40
-	+	48	40
-	+	51	2
-	+	9	40
-	+	10	37
-	+	51	13
-	+	50	33
-	+	51	35
-	+	54	33
-	+	42	19
-	+	57	12
-	+	51	24
-	+	45	15
-	+	39	24
-	+	37	11
-	+	38	11
-	+	39	26
-	+	9	30
-	+	51	28
-	+	52	13
-	+	51	6
-	+	52	23
+> ~/batik/vimclojure_buffer_000004
+	"	5	6
+	^	5	7
+	.	5	0
 	+	6	0
-	+	5	79
-	+	31	18
-	+	55	15
-
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/routing/numbers.clj
-	"	2	34
-	^	2	35
-	.	2	34
-	+	1	32
-	+	1014	14
-	+	7	2
-	+	1014	0
-	+	7	23450
-	+	7	9
-	+	1014	0
-	+	1014	0
-	+	1014	0
-	+	7	9
-	+	130	0
-	+	7	8
-	+	130	0
-	+	290	19
-	+	291	20
-	+	292	19
-	+	1014	0
-	+	293	20
-	+	295	20
-	+	296	19
-	+	298	20
-	+	299	10
-	+	328	12
-	+	328	32
-	+	350	10
-	+	393	0
-	+	528	10
-	+	528	9
-	+	528	29
-	+	584	11
-	+	129	0
-	+	7	10
-	+	8	0
-	+	328	0
-	+	299	10
-	+	300	0
-	+	392	0
-	+	350	10
-	+	351	0
-	+	584	0
-	+	528	10
-	+	529	0
-	+	584	10
-	+	585	0
-	+	668	10
-	+	669	0
-	+	748	10
-	+	749	0
-	+	7	7
-	+	289	19
-	+	290	0
-	+	291	0
-	+	301	0
+	+	7	64
+	+	9	36
+	+	11	0
+	+	2	0
 	+	5	0
-	+	8	9
-	+	7	20
+
+> ~/batik/vimclojure_buffer_000000
+	"	7	0
+	^	7	1
+	.	7	0
+	+	101	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	103	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	105	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	107	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	109	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	111	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	115	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	117	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	119	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	121	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	125	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	127	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	129	46
+	+	129	46
+	+	134	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	131	0
+	+	133	0
+	+	8	0
+	+	9	64
+	+	11	53
+	+	13	23
+	+	15	23
+	+	17	0
+	+	2	0
+	+	3	1
+	+	4	22
+	+	4	39
 	+	7	0
-	+	8	0
-	+	8	0
-	+	7	21
-	+	8	20
+
+> ~/batik/NERD_tree_1
+	"	6	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/batik/project.clj
+	"	37	2
+	^	1	18
+	.	37	2
+	+	7	0
+	+	22	0
+	+	5	17
+	+	6	17
 	+	9	0
-	+	290	21
-	+	292	11
-	+	293	11
-	+	294	11
-	+	296	11
-	+	299	11
-	+	292	21
-	+	293	21
-	+	294	21
-	+	296	21
-	+	299	21
-	+	350	21
-	+	528	21
-	+	584	21
-	+	668	21
-	+	748	21
-	+	1013	19
-	+	299	0
-	+	350	0
-	+	328	9
-	+	329	8
-	+	330	9
-	+	349	20
-	+	3	0
-	+	2	34
+	+	23	0
+	+	28	0
+	+	35	0
+	+	36	0
+	+	38	0
+	+	37	2
+	+	1	0
+	+	36	0
+	+	37	2
 
-> /usr/share/vim/vim73/doc/visual.txt
-	"	222	36
+> ~/batik/vimclojure_buffer_000001
+	"	5	6
+	^	5	7
+	.	5	0
+	+	2	0
+	+	5	0
 
-> ~/Dropbox/ReadyForZero/debtapp/app/src/app/billpay/routing/core.clj
-	"	9	27
-	^	11	58
-	.	9	27
-	+	1	29
-	+	7	35
-	+	13	0
-	+	1	63
-	+	7	0
-	+	13	52
-	+	15	36
-	+	17	21
-	+	18	18
-	+	3	0
-	+	2	34
-	+	12	2
-	+	11	57
-	+	9	27
+> ~/batik/vimclojure_buffer_000003
+	"	11	22
+	^	11	23
+	.	11	22
+	+	2	0
+	+	3	64
+	+	12	0
+	+	5	52
+	+	7	36
+	+	12	0
+	+	9	0
+	+	11	22
+
+> ~/batik/vimclojure_buffer_000005
+	"	19	21
+	^	19	22
+	.	19	0
+	+	2	0
+	+	3	64
+	+	5	36
+	+	7	74
+	+	9	23
+	+	11	37
+	+	13	23
+	+	15	23
+	+	17	23
+	+	19	0

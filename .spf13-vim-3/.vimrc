@@ -400,7 +400,7 @@
         nnoremap <silent> <D-r> :CtrlPMRU<CR>
         let g:ctrlp_custom_ignore = {
             \ 'dir':  '\.git$\|\.hg$\|\.svn$',
-            \ 'file': '\.exe$\|\.so$\|\.dll$\|\.class$' }
+            \ 'file': '\.exe$\|\.so$\|\.dll$' }
      "}
 
      " TagBar {
@@ -600,3 +600,5 @@ endfunction
         endif
     endif
 " }
+
+map <S-Down> <c-h>
