@@ -1,11 +1,15 @@
 export CS_HOME=install_directory_path
 export VIMCLOJURE_SERVER_JAR="$HOME/lib/vimclojure/server-2.3.2.jar"
 export JAVA_OPTS="-Xmx2000m -Xms2000m -XX:MaxPermSize=512M"
-export JSHINT_CONFIG="/Users/marshall/debtapp/qa/run-precommit/jshintrc"
+export JSHINT_CONFIG="~/debtapp/qa/run-precommit/jshintrc"
 export RFZ_ROOT="/Users/marshall/debtapp"
 alias rfz='cd ~/debtapp'
 alias clj="~/Library/Clojure/clj"
-PATH=$PATH:/mongo/bin:$CS_HOME/bin
+PATH=$PATH:/mongo/bin:$CS_HOME/bin:/usr/local/etc
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+        . `brew --prefix`/etc/bash_completion
+fi
+PS1="\W\$(__git_ps1) \$ "
 export RFZ_ANALYTICS_FILES="/rfz/analytics"
 export RFZ_ANALYTICS_DEV="true"
 alias dieCompass='compass watch resources/public/sass/screen.scss resources/public/sass/landing.scss --config=../config/roles/web/compass.rb'
