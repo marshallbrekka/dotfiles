@@ -30,3 +30,4 @@ alias gd='git diff'
 
 alias gpl='git pull'
 alias gps='git push'
+alias reload='source ~/.bash_profile'
