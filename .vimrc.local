@@ -106,7 +106,7 @@ let vimclojure#ParenRainbow=1
 " Full path to the nailgun client
  let vimclojure#NailgunClient = "/usr/bin/ng"")
 
-let vimclojure#SplitPos = "right"
+let vimclojure#SplitPos = "bottom"
 
 imap <c-k> <C-O>:call b:vimclojure_repl.upHistory()<CR>
 imap <c-j> <C-O>:call b:vimclojure_repl.downHistory()<CR>
