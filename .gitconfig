@@ -1,3 +1,5 @@
 [user]
 	name = Marshall Brekka
 	email = marshallsmedia@gmail.com
+[core]
+	editor = /usr/bin/vim

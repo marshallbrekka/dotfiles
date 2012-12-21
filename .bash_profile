@@ -1,4 +1,7 @@
 export CS_HOME=install_directory_path
+export JAVA_HOME=$(/usr/libexec/java_home)
+export AWS_CREDENTIAL_FILE="/Users/marshall/.aws:marshall"
+export AWS_CLOUDFORMATION_HOME="/Users/marshall/debtapp/lib/AWSCloudFormation"
 export VIMCLOJURE_SERVER_JAR="$HOME/lib/vimclojure/server-2.3.2.jar"
 export JAVA_OPTS="-Xmx2000m -Xms2000m -XX:MaxPermSize=512M"
 export JSHINT_CONFIG="~/debtapp/qa/run-precommit/jshintrc"
@@ -12,7 +15,7 @@ fi
 PS1="\W\$(__git_ps1) \$ "
 export RFZ_ANALYTICS_FILES="/rfz/analytics"
 export RFZ_ANALYTICS_DEV="true"
-alias dieCompass='compass watch resources/public/sass/screen.scss resources/public/sass/landing.scss --config=../config/roles/web/compass.rb'
+alias dieCompass='compass watch resources/public/sass/screen.scss  --config=../config/roles/web/compass.rb'
 alias reload='source ~/.bash_profile'
 #Save history correctly when using multiple terminals
 # Dont save duplicate lines or blank lines in to history
