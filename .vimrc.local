@@ -112,3 +112,5 @@ imap <c-k> <C-O>:call b:vimclojure_repl.upHistory()<CR>
 imap <c-j> <C-O>:call b:vimclojure_repl.downHistory()<CR>
 imap <c-e> <Esc>G$:call b:vimclojure_repl.enterHook()<CR>
 
+map <c-k> 10k
+map <c-j> 10j

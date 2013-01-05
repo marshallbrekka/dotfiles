@@ -2,8 +2,6 @@
 !.bash_profile
 !.gitconfig
 !.spf13-vim
-!.vim
-!.viminfo
 !.vimrc
 !.vimrc.bundles
 !.vimrc.bundles.local
