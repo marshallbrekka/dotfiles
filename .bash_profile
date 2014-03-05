@@ -1,3 +1,5 @@
+source /usr/local/git/contrib/completion/git-completion.bash
+
 export CS_HOME=install_directory_path
 export JAVA_OPTS="-Xmx2000m -Xms2000m -XX:MaxPermSize=512M"
 export JSHINT_CONFIG="~/debtapp/qa/run-precommit/jshintrc"
