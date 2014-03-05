@@ -1,5 +1,4 @@
 export CS_HOME=install_directory_path
-export VIMCLOJURE_SERVER_JAR="$HOME/lib/vimclojure/server-2.3.2.jar"
 export JAVA_OPTS="-Xmx2000m -Xms2000m -XX:MaxPermSize=512M"
 export JSHINT_CONFIG="~/debtapp/qa/run-precommit/jshintrc"
 export RFZ_ROOT="/Users/marshall/debtapp"
@@ -24,10 +23,22 @@ alias md5='md5 -r'
 alias md5sum='md5 -r'
 alias forward-off="cp ~/debtapp/var/service-local.json ~/debtapp/config/service.json"
 alias forward-on="cp ~/debtapp/var/service-prod.json ~/debtapp/config/service.json"
-set -o vi
+
 alias gs='git status'
 alias gd='git diff'
 
 alias gpl='git pull'
 alias gps='git push'
 alias reload='source ~/.bash_profile'
+alias bt-on='btutil connect 28-37-37-2c-37-aa & btutil connect b8-f6-b1-20-76-2f'
+alias bt-off='btutil disconnect 28-37-37-2c-37-aa & btutil disconnect b8-f6-b1-20-76-2f'
+PATH=$PATH:/Users/Marshall/clojurescript
+export EDITOR="emacs -nw"
+
+export LEIN_USERNAME=AKIAIL2EGVBETPF45AVA
+export LEIN_PASSPHRASE=Jv3U3y9gBDIS5sSVKy0eohrNvfEMkwk0pp3XKWjj
+
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+
+#include the android sdk binaries in path.
+PATH=$PATH:/usr/local/bin/tools:/usr/local/bin/platform-tools
